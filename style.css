@@ -1,0 +1,52 @@
+.mentor{
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 450px;
+    min-width:30%;
+    box-shadow:  0 .5rem 1rem rgba(0,0,0,.15)!important
+}
+
+.mentor-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mentor-details{
+    font-size: 1.2rem;
+    padding: 25px;
+    text-align: center;
+}
+.mentor-image{
+    width: 60%;
+    height:90%;
+    border-radius: 50%;
+    
+}
+
+.mentor-name{
+    font-weight: bold;
+    font-size: 25px;
+}
+.mentor-name:hover{
+    text-decoration: none;
+}
+
+
+.image-container{
+    padding-right:0px !important;
+    padding-left: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
