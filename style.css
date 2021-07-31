@@ -1,4 +1,11 @@
-.mentor{
+.mentors-container,
+.advisors-container,
+.team-member-container{
+    margin: 20px 0 70px 0;
+}
+.mentor,
+.advisor,
+.team-member{
     margin: 10px auto;
     border-radius: 5px;
     padding: 10px;
@@ -9,8 +16,14 @@
     min-width:30%;
     box-shadow:  0 .5rem 1rem rgba(0,0,0,.15)!important
 }
-
-.mentor-container{
+.mentors-container .heading,
+.advisors-container .heading,
+.team-member-container .heading{
+    margin: 50px 0;
+}
+.mentor-container,
+.advisor-container,
+.teammate-container{
     width: 100%;
     display: flex;
     align-items: center;
@@ -21,27 +34,28 @@
     padding-right: 10px;
 }
 
-.mentor-details{
+.mentor-details,
+.advisor-details{
     font-size: 1.2rem;
     padding: 25px;
     text-align: center;
 }
-.mentor-image{
+.mentor-image,
+.advisor-image{
     width: 60%;
     height:90%;
     border-radius: 50%;
-    
 }
 
-.mentor-name{
+.mentor-name,
+.advisor-name{
     font-weight: bold;
     font-size: 25px;
 }
-.mentor-name:hover{
+.mentor-name:hover,
+.advisor-name:hover{
     text-decoration: none;
 }
-
-
 .image-container{
     padding-right:0px !important;
     padding-left: 0px !important;
@@ -49,4 +63,16 @@
     align-items: center;
     justify-content: center;
 
+}
+.team-member-container .team-container .carousel-inner .carousel-item .team-member:hover .card:not(:hover){
+    transform: scale(0.9);
+}
+.team-member-container .carousel .carousel-indicators{
+    bottom: -45px;
+}
+.team-member-container .carousel .carousel-indicators li{
+    background-color: #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
 }
