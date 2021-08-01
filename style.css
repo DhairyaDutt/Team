@@ -64,7 +64,7 @@
     justify-content: center;
 
 }
-.team-member-container .team-container .carousel-inner .carousel-item .team-member:hover .card:not(:hover){
+/* .team-member-container .team-container .carousel-inner .carousel-item .team-member:hover .card:not(:hover){
     transform: scale(0.9);
 }
 .team-member-container .carousel .carousel-indicators{
@@ -75,4 +75,104 @@
     border-radius: 50%;
     width: 10px;
     height: 10px;
+} */
+.team-member-container .team-container{
+    flex-wrap: wrap;
+    padding: 50px 100px;
 }
+.team-member-container .team-container .mem{
+    margin: 20px;
+}
+.team-member-container .team-container .mem .image{
+    position: relative;
+}
+.team-member-container .team-container .mem .image .overlay{
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0.5;
+    background-color: rgba(152, 212, 250, 0.5);
+}
+.team-member-container .team-container .mem .image:hover .overlay{
+    opacity: 0;
+}
+.team-member-container .team-container .mem .image img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.team-member-container .team-container .mem .image .overlay-fade{
+    height: 250px;
+    width: 250px;
+    top: 0;
+    border-radius: 50%;
+    /* left: 75px; */
+    background-color: rgb(152, 212, 250);
+}
+.team-member-container .team-container .mentor-btn,
+.team-member-container .team-container .UX-btn,
+.team-member-container .team-container .advisor-btn{
+    background-color: rgb(243, 88, 88);
+    color: #fff;
+    font-weight: 600;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transform: translateY(30%);
+}
+.team-member-container .team-container .mentor-btn h1,
+.team-member-container .team-container .UX-btn h1,
+.team-member-container .team-container .advisor-btn h1{
+    font-size: 80px;
+    margin-top: 25px;
+    line-height: 0.6;
+}
+.mem1{
+    transform: translateY(15%);
+}
+.team-member-container .team-container .UX-btn{
+    transform: translate(120%, -30%);
+}
+.team-member-container .team-container .UX-btn h1{
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+.team-member-container .team-container .advisor-btn{
+    transform: translate(-25%, -10%);
+}
+.mem2{
+    transform: translate(-15%, -5%);
+}
+.team-member-container .team-container .mem2 .image img,
+.team-member-container .team-container .mem6 .image img,
+.team-member-container .team-container .mem9 .image img{
+    height: 200px;
+    width: 200px;
+}
+.team-member-container .team-container .mem2 .image .overlay-fade,
+.team-member-container .team-container .mem6 .image .overlay-fade,
+.team-member-container .team-container .mem9 .image .overlay-fade{
+    height: 200px;
+    width: 200px;
+}
+.mem3{
+    transform: translate(-20%, -5%);
+}
+.mem4{
+    transform: translate(-30%, -40%);
+}
+.mem5{
+    transform: translate(-40%, 5%);
+}
+.mem6{
+    transform: translate(5%, -65%);
+}
+.mem9{
+    transform: translate(95%, -130%);
+}
+/* .team-member-container .team-container .mem1 .image::before{
+    content: '';
+    background: rgb(135, 206, 250, 0.5);
+    background-size: 200px;
+    border-radius: 50%;
+} */
