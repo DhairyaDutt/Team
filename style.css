@@ -43,32 +43,34 @@
     /* left: 75px; */
     background-color: rgb(152, 212, 250);
 }
-.team-member-container .team-container .createdIn{
-    transform: translate(50%, 40%);
-}
-.team-member-container .team-container .createdIn p{
-    margin-bottom: -10px;
-}
-.team-member-container .team-container .createdIn h1{
-    font-size: 52px;
-}
 .team-member-container .team-container .createdIn,
 .team-member-container .team-container .UX-btn,
 .team-member-container .team-container .founder-btn,
 .team-member-container .team-container .advisor-btn,
 .team-member-container .team-container .projects,
-.team-member-container .team-container .creative-btn,
+.team-member-container .team-container .content-btn,
 .team-member-container .team-container .developer-btn,
 .team-member-container .team-container .fwa,
 .team-member-container .team-container .associate-btn{
-    background-color: rgb(243, 88, 88);
+    background-color: #f35858;
     color: #fff;
     font-weight: 600;
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
+.team-member-container .team-container .createdIn{
+    background-color: #8165a6;
+    transform: translate(50%, 40%);
+}
+/* .team-member-container .team-container .createdIn p{
+    margin-bottom: -10px;
+}
+.team-member-container .team-container .createdIn h1{
+    font-size: 52px;
+} */
 .team-member-container .team-container .founder-btn{
+    background-color: #1ea2e0;
     transform: translate(15%, -20%);
 }
 .team-member-container .team-container .UX-btn h1,
@@ -84,6 +86,7 @@
 }
 .team-member-container .team-container .UX-btn{
     transform: translate(30%, -30%);
+    background-color: #8165a6;
 }
 .team-member-container .team-container .UX-btn h1{
     font-weight: 300;
@@ -95,32 +98,42 @@
 }
 
 .team-member-container .team-container .projects{
-    transform: translate(200%, -55%);
+    background-color: #1ea2e0;
+    transform: translate(240%, -55%);
 }
 
-.team-member-container .team-container .creative-btn{
-    transform: translate(250%, -100%);
+.team-member-container .team-container .content-btn{
+    /* transform: translate(250%, -100%); */
+    transform: translate(80%, -110%);
+    background-color: #c5397a;
+}
+.team-member-container .team-container .content-btn h2{
+    margin-bottom: -5px;
 }
 .team-member-container .team-container .developer-btn{
-    transform: translate(-405%, 20%);
+    background-color: #1ea2e0;
+    transform: translate(-425%, 30%);
 }
 .team-member-container .team-container .fwa h1{
     margin-bottom: -5px;
 }
 .team-member-container .team-container .fwa{
+    background-color: #2f2f5f;
     transform: translate(130%, -420%);
 }
 .team-member-container .team-container .associate-btn{
-    transform: translate(140%, -380%);
+    background-color: #8165a6;
+    transform: translate(80%, -280%);
 }
 .mem2{
-    transform: translate(140%, -80%);
+    transform: translate(140%, -70%);
 }
 
 .team-member-container .team-container .mem3 .image img,
 .team-member-container .team-container .mem4 .image img,
 .team-member-container .team-container .mem6 .image img,
 .team-member-container .team-container .mem9 .image img,
+.team-member-container .team-container .mem7 .image img,
 .team-member-container .team-container .mem10 .image img,
 .team-member-container .team-container .mem11 .image img,
 .team-member-container .team-container .mem12 .image img,
@@ -131,7 +144,7 @@
 .team-member-container .team-container .mem18 .image img,
 .team-member-container .team-container .mem19 .image img,
 .team-member-container .team-container .awards,
-.team-member-container .team-container .projects,
+/* .team-member-container .team-container .projects, */
 .team-member-container .team-container .pride{
     height: 180px;
     width: 180px;
@@ -140,36 +153,44 @@
 .team-member-container .team-container .pride{
     border-radius: 50%;
     color: #fff;
-    background-color: #e9798b;
-    transform: translate(0, -26%);
+    background-color: #c5397a;
+    /* transform: translate(0, -26%); */
+    transform: translate(200%, -170%);
+}
+.team-member-container .team-container .pride{
+    height: 150px;
+    width: 150px;
 }
 .team-member-container .team-container .awards h1{
     margin-bottom: -10px;
     font-size: 44px;
     font-weight: 600;
 }
-.team-member-container .team-container .projects h1{
+/* .team-member-container .team-container .projects h1{
     font-weight: 600;
     font-size: 52px;
     margin-bottom: -10px;
 }
 .team-member-container .team-container .projects p{
     margin: 0 70px;
-}
-.team-member-container .team-container .pride p{
+} */
+/* .team-member-container .team-container .pride p{
     margin-bottom: -5px;
-}
-.team-member-container .team-container .pride h4{
+} */
+.team-member-container .team-container .pride h3{
     font-weight: 700;
     letter-spacing: -2px;
-    font-size: 28px;
+    font-size: 32px;
+    margin-bottom: -5px;
 }
 .team-member-container .team-container .pride{
-    transform: translate(65%, -90%);
+    background-color: #070707;
+    transform: translate(140%, -110%);
 }
 .team-member-container .team-container .mem3 .image .overlay-fade,
 .team-member-container .team-container .mem4 .image .overlay-fade,
 .team-member-container .team-container .mem6 .image .overlay-fade,
+.team-member-container .team-container .mem7 .image .overlay-fade,
 .team-member-container .team-container .mem9 .image .overlay-fade,
 .team-member-container .team-container .mem10 .image .overlay-fade,
 .team-member-container .team-container .mem11 .image .overlay-fade,
@@ -187,40 +208,42 @@
     transform: translate(25%, -10%);
 }
 .mem4{
-    transform: translate(0%, -60%);
+    /* transform: translate(0%, -60%); */
+    transform: translate(200%, -80%);
 }
 .mem5{
-    transform: translate(45%, -110%);
+    transform: translate(70%, -68%);
 }
 .mem6{
-    transform: translate(70%, -85%);
+    transform: translate(130%, -80%);
 }
 .mem7{
-    transform: translate(65%, -130%);
+    transform: translate(110%, -165%);
 }
 .mem9{
-    transform: translate(100%, -127%);
+    transform: translate(-30%, -50%);
 }
 .mem10{
-    transform: translate(130%, -220%);
+    /* transform: translate(125%, -190%); */
+    transform: translate(0, -26%);
 }
 .mem11{
-    transform: translate(-15%, -260%);
+    transform: translate(-480%, -90%);
 }
 .mem12{
-    transform: translate(40%, -260%);
+    transform: translate(0%, -170%);
 }
 .mem13{
-    transform: translate(30%, -240%);
+    transform: translate(85%, -120%);
 }
 .mem14{
-    transform: translate(20%, -340%);
+    transform: translate(115%, -340%);
 }
 .mem15{
-    transform: translate(-5%, -190%);
+    transform: translate(385%, -300%);
 }
 .mem16{
-    transform: translate(35%, -210%);
+    transform: translate(70%, -230%);
 }
 .mem17{
     transform: translate(20%, -185%);
@@ -233,6 +256,25 @@
 }
 .mem20{
     transform: translate(170%, -270%);
+}
+.mem26{
+    transform: translate(50%, -80%);
+}
+.team-member-container .team-container .mem9 .image img{
+    width: 200px;
+    height: 200px;
+}
+.team-member-container .team-container .mem9 .image .overlay-fade{
+    width: 200px;
+    height: 200px;
+}
+.team-member-container .team-container .mem5 .image img{
+    height: 280px;
+    width: 280px;
+}
+.team-member-container .team-container .mem5 .image .overlay-fade{
+    height: 280px;
+    width: 280px;
 }
 .team-member-container .team-container .mem8 .image img,
 .team-member-container .team-container .mem20 .image img{
@@ -249,7 +291,7 @@
     background-color: rgb(152, 212, 250);
 }
 .mem8{
-    transform: translate(140%, -120%);
+    transform: translate(100%, -90%);
 }
 .team-member-container .team-container .partnership,
 .team-member-container .team-container .mdesigner-btn,
@@ -263,6 +305,7 @@
     color: #fff;
 }
 .team-member-container .team-container .partnership{
+    background-color: #73c2d5;
     transform: translate(120%, -230%);
 }
 .team-member-container .team-container .partnership h1{
@@ -272,21 +315,27 @@
     font-weight: 700;
     margin-bottom: -5px;
 }
-.team-member-container .team-container .manager-btn h5,
+.team-member-container .team-container .manager-btn h4{
+    margin-bottom: -2px;
+}
 .team-member-container .team-container .community-btn h5{
     font-weight: 600;
     margin-bottom: -5px;
 }
 .team-member-container .team-container .community-btn{
+    background-color: #c5397a;
     transform: translate(120%, -480%);
 }
 .team-member-container .team-container .mdesigner-btn{
-    transform: translate(80%, -340%);
+    background-color: #8165a6;
+    transform: translate(220%, -430%);
 }
 .team-member-container .team-container .manager-btn{
-    transform: translate(-40%, -270%);
+    background-color: #2f2f5f;
+    transform: translate(170%, -370%);
 }
 .team-member-container .team-container .planner-btn{
+    background-color: #1ea2e0;
     transform: translate(30%, -430%);
 }
 /* .team-member-container .team-container .mem1 .image::before{
