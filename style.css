@@ -359,20 +359,89 @@ html, body{
 } */
 
 
-/* @media screen and (max-width: 1451px){
+@media screen and (max-width: 1451.6px){
 
     .mem11{
-        transform: translate(-14%, -285%);
+        transform: translate(-15%, -275%);
     }
-
+    .mem12{
+        transform: translate(-115%, -165%);
+    }
+    .mem13 {
+        transform: translate(-20%, -120%);
+    }
     .mem14{
         transform: translate(-7%, -340%);
     }
-
+    .mem15 {
+        transform: translate(277%, -305%);
+    }
+    .mem16 {
+        transform: translate(515%, -345%);
+    }
+    .team-member-container .team-container .associate-btn {
+        transform: translate(-50%, -270%);
+    }
     .team-member-container .team-container .manager-btn{
         transform: translate(-15%, -370%);
     }
-} */
+}
+@media screen and (max-width: 1421.6px){
+    .mem4 {
+        transform: translate(-210%, 0%);
+    }
+    .mem5 {
+        transform: translate(30%, -65%);
+    }
+    .mem7 {
+        transform: translate(35%, -130%);
+    }
+    .mem6 {
+        transform: translate(520%, -195%);
+    }
+    .mem9 {
+        transform: translate(-45%, -40%);
+    }
+    .mem10 {
+        transform: translate(-25%, -15%);
+    }
+    .mem11 {
+        transform: translate(-100%, -270%);
+    }
+    .mem12 {
+        transform: translate(145%, -355%);
+    }
+    .mem13 {
+        transform: translate(10%, -140%);
+    }
+    .mem14 {
+        transform: translate(480%, -370%);
+    }
+    .mem15 {
+        transform: translate(-190%, -256%);
+    }
+    .mem16 {
+        transform: translate(175%, -225%);
+    }
+    .mem26 {
+        transform: translate(-8%, -75%);
+    }
+    .team-member-container .team-container .awards {
+        transform: translate(125%, -225%);
+    }
+    .team-member-container .team-container .pride {
+        transform: translate(50%, -125%);
+    }
+    .team-member-container .team-container .content-btn {
+        transform: translate(-15%, -90%);
+    }
+    .team-member-container .team-container .manager-btn {
+        transform: translate(-180%, -755%);
+    }
+    .team-member-container .team-container .associate-btn {
+        transform: translate(-195%, -265%);
+    }
+}
 
 @media screen and (max-width: 992px){
 
