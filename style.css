@@ -663,6 +663,22 @@ html, body{
         transform: translate(-120%, 50%);
     }
 
+    .team-member-container .team-container .projects{
+        transform: translate(250%, -80%);
+    }
+
+    .team-member-container .team-container .awards {
+        transform: translate(-100%, -660%);
+    }
+
+    .team-member-container .team-container .developer-btn{
+        transform: translate(-230%, 440%);
+    }
+
+    .team-member-container .team-container .associate-btn{
+        transform: translate(20%, -490%);
+    }
+
     .mem5{
         transform: translate(-100%, -350%);
     }
@@ -679,8 +695,209 @@ html, body{
         transform: translate(240%, -25%);
     }
 
+    .mem9 {
+        transform: translate(60%, -90%);
+    }
+
+    .mem26{
+        transform: translate(70%, -290%);
+    }
+
+    .mem4 {
+        transform: translate(20%, 120%);
+    }
+
+    .mem7{
+        transform: translate(-30%, -240%);
+    }
+
+    .mem14 {
+        transform: translate(-49%, -627%);
+    }
+
+    .mem11 {
+        transform: translate(60%, -250%);
+    }
+
+    .mem12 {
+        transform: translate(50%, -330%);
+    }
+
+    .mem13 {
+        transform: translate(40%, -230%);
+    }
+
+    .mem16 {
+        transform: translate(-120%, -360%);
+    }
+
+    .mem15 {
+        transform: translate(20%, -350%);
+    }
+
+    .mem3 {
+        transform: translate(40%, 900%);
+    }
+
 }
 
 @media screen and (max-width: 480px){
+
+    .team-member-container .team-container .mem .image img{
+        height: 210px;
+        width: 210px;
+    }
+    .team-member-container .team-container .mem .image .overlay-fade{
+        height: 210px;
+        width: 210px;
+    }
+
+    .team-member-container .team-container .UX-btn,
+    .team-member-container .team-container .founder-btn,
+    .team-member-container .team-container .advisor-btn,
+    .team-member-container .team-container .projects,
+    .team-member-container .team-container .content-btn,
+    .team-member-container .team-container .developer-btn,
+    .team-member-container .team-container .fwa,
+    .team-member-container .team-container .associate-btn{
+        width: 130px;
+        height: 130px;
+    }
+
+    .team-member-container .team-container .mem3 .image img,
+    .team-member-container .team-container .mem4 .image img,
+    .team-member-container .team-container .mem6 .image img,
+    .team-member-container .team-container .mem9 .image img,
+    .team-member-container .team-container .mem7 .image img,
+    .team-member-container .team-container .mem10 .image img,
+    .team-member-container .team-container .mem11 .image img,
+    .team-member-container .team-container .mem12 .image img,
+    .team-member-container .team-container .mem13 .image img,
+    .team-member-container .team-container .mem14 .image img,
+    .team-member-container .team-container .mem15 .image img,
+    .team-member-container .team-container .mem16 .image img,
+    .team-member-container .team-container .mem18 .image img,
+    .team-member-container .team-container .mem19 .image img,
+    .team-member-container .team-container .awards,
+    /* .team-member-container .team-container .projects, */
+    .team-member-container .team-container .pride{
+        height: 150px;
+        width: 150px;
+    }
+
+    .team-member-container .team-container .mem3 .image .overlay-fade,
+    .team-member-container .team-container .mem4 .image .overlay-fade,
+    .team-member-container .team-container .mem6 .image .overlay-fade,
+    .team-member-container .team-container .mem7 .image .overlay-fade,
+    .team-member-container .team-container .mem9 .image .overlay-fade,
+    .team-member-container .team-container .mem10 .image .overlay-fade,
+    .team-member-container .team-container .mem11 .image .overlay-fade,
+    .team-member-container .team-container .mem12 .image .overlay-fade,
+    .team-member-container .team-container .mem13 .image .overlay-fade,
+    .team-member-container .team-container .mem14 .image .overlay-fade,
+    .team-member-container .team-container .mem15 .image .overlay-fade,
+    .team-member-container .team-container .mem16 .image .overlay-fade,
+    .team-member-container .team-container .mem18 .image .overlay-fade,
+    .team-member-container .team-container .mem19 .image .overlay-fade{
+        height: 150px;
+        width: 150px;
+    }
+
+
+
+    .team-member-container .team-container .founder-btn{
+        transform: translate(-150%, -140%);
+    }
+
+    .team-member-container .team-container .advisor-btn {
+        transform: translate(180%, 220%);
+    }
+
+    .team-member-container .team-container .UX-btn {
+        transform: translate(30%, 190%);
+    }
+
+    .team-member-container .team-container .awards {
+        transform: translate(10%, -970%);
+    }
+
+    .team-member-container .team-container .pride {
+        transform: translate(170%, -160%);
+    }
+
+    .team-member-container .team-container .developer-btn{
+        transform: translate(-70%, 360%);
+    }
+
+    .team-member-container .team-container .associate-btn {
+        transform: translate(0%, -720%);
+    }
+
+    .mem5{
+        transform: translate(90%, -670%);
+    }
+
+    .mem1{
+        transform: translate(-10%,0);
+    }
+
+    .mem10{
+        transform: translate(0%,-120%);
+    }
+
+    .mem2{
+        transform: translate(90%,-150%);
+    }
+
+    .mem9{
+        transform: translate(130%,-320%);
+    }
+
+    .mem26{
+        transform: translate(90%,-520%);
+    }
+
+    .mem4{
+        transform: translate(0%,0%);
+    }
+
+    .mem6{
+        transform: translate(20%,-300%);
+    }
+
+    .mem7{
+        transform: translate(0%,-380%);
+    }
+
+    .mem14{
+        transform: translate(30%,-710%);
+    }
+
+    .mem3{
+        transform: translate(-60%,840%);
+    }
+
+    .mem11{
+        transform: translate(70%,-330%);
+    }
+
+    .mem12{
+        transform: translate(-110%,-420%);
+    }
+
+    .mem15{
+        transform: translate(-40%,-590%);
+    }
+
+    .mem13{
+        transform: translate(160%,-340%);
+    }
+    
+    .mem16{
+        transform: translate(40%,-390%);
+    }
+
+    
+
 
 }
