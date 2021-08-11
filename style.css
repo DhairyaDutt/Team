@@ -47,6 +47,7 @@ html, body{
     height: 250px;
     width: 250px;
     border-radius: 50%;
+    transition: all 0.5s ease-in-out;
 }
 .team-member-container .team-container .mem .image .overlay-fade{
     height: 250px;
@@ -358,6 +359,47 @@ html, body{
     border-radius: 50%;
 } */
 
+/* ************************ Functional css ***************************** */
+.mem .content{
+    display: none;
+    text-align: center;
+    transition: display 100s ease-in-out;
+}
+
+.team-member-container .team-container .big{
+    margin: 30px;
+}
+.team-member-container .team-container .big .image .overlay{
+    opacity: 0;
+}
+.team-member-container .team-container .big .image{
+    top: -20%;
+    left: -10%;
+}
+.team-member-container .team-container .big .image img{
+    height: 260px;
+    width: 260px;
+    transition: all 0.5s ease-in-out;
+}
+.team-member-container .team-container .big .image .overlay-fade{
+    display: none;
+}
+.big .content{
+    display: block;
+    transition: display 100s ease-in-out;
+    margin-top: -200px;
+    margin-left: -40px;
+}
+
+
+.team-member-container .team-container .big1 .image{
+    top: 5%;
+    left: -30%;
+}
+.big .content{
+    margin-top: 10px;
+    margin-left: -110px;
+}
 
 @media screen and (max-width: 1451.6px){
 
@@ -741,7 +783,178 @@ html, body{
 
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 572.6px){
+    .team-container{
+        margin: 0 0.4rem !important;
+    }
+    .mem11 {
+        transform: translate(-60%, -355%);
+    }
+    .mem12 {
+        transform: translate(170%, -290%);
+    }
+    .mem13 {
+        transform: translate(-90%, -15%);
+    }
+    .mem14 {
+        transform: translate(45%, -375%);
+    }
+    .mem15 {
+        transform: translate(14%, -610%);
+    }
+    .mem16 {
+        transform: translate(5%, -221%);
+    }
+    .mem26 {
+        transform: translate(90%, -235%);
+    }
+    .mem7 {
+        transform: translate(-110%, -185%);
+    }
+    .mem6 {
+        transform: translate(150%, -50%);
+    }
+    .mem5 {
+        transform: translate(80%, -420%);
+    }
+    .mem9 {
+        transform: translate(15%, -90%);
+    }
+    .mem4 {
+        transform: translate(10%, 120%);
+    }
+    .mem2 {
+        transform: translate(10%, 100%);
+    }
+    .mem10 {
+        transform: translate(145%, -45%);
+    }
+    .mem3 {
+        transform: translate(-150%, -70%);
+    }
+    .mem1 {
+        transform: translate(-60%,220%);
+    }
+    .team-member-container .team-container .advisor-btn {
+        transform: translate(20%, -5%);
+    }
+    .team-member-container .team-container .founder-btn {
+        transform: translate(150%, -230%);
+    }
+    .team-member-container .team-container .UX-btn {
+        transform: translate(-45%, 65%);
+    }
+    .team-member-container .team-container .projects {
+        transform: translate(240%, -120%);
+    }
+    .team-member-container .team-container .developer-btn {
+        transform: translate(-230%, 192%);
+    }
+    .team-member-container .team-container .pride {
+        transform: translate(490%, -345%);
+    }
+    .team-member-container .team-container .awards {
+        transform: translate(30%, 0%);
+    }
+    .team-member-container .team-container .content-btn {
+        transform: translate(20%, 365%);
+    }
+    .team-member-container .team-container .manager-btn {
+        transform: translate(-120%, -325%);
+    }
+    .team-member-container .team-container .associate-btn {
+        transform: translate(70%, -500%);
+    }
+}
+@media screen and (max-width: 532.6px){
+    .team-container{
+        margin: 0 0.5rem !important;
+    }
+    .mem11 {
+        transform: translate(-80%, -380%);
+    }
+    .mem12 {
+        transform: translate(-40%, -270%);
+    }
+    .mem13 {
+        transform: translate(130%, -225%);
+    }
+    .mem14 {
+        transform: translate(15%, -345%);
+    }
+    .mem15 {
+        transform: translate(-85%, -630%);
+    }
+    .mem16 {
+        transform: translate(35%, -190%);
+    }
+    .mem26 {
+        transform: translate(80%, -220%);
+    }
+    .mem7 {
+        transform: translate(5%, -305%);
+    }
+    .mem6 {
+        transform: translate(150%, -25%);
+    }
+    .mem5 {
+        transform: translate(45%, -465%);
+    }
+    .mem9 {
+        transform: translate(130%, -200%);
+    }
+    .mem4 {
+        transform: translate(10%, 120%);
+    }
+    .mem2 {
+        transform: translate(10%, 90%);
+    }
+    .mem10 {
+        transform: translate(35%, -30%);
+    }
+    .mem3 {
+        transform: translate(25%, -35%);
+    }
+    .mem1 {
+        transform: translate(-65%,240%);
+    }
+    .team-member-container .team-container .advisor-btn {
+        transform: translate(20%, -5%);
+    }
+    .team-member-container .team-container .founder-btn {
+        transform: translate(150%, -230%);
+    }
+    .team-member-container .team-container .UX-btn {
+        transform: translate(110%, 210%);
+    }
+    .team-member-container .team-container .projects {
+        transform: translate(10%, 240%);
+    }
+    .team-member-container .team-container .developer-btn {
+        transform: translate(55%, 640%);
+    }
+    .team-member-container .team-container .pride {
+        transform: translate(-170%, -15%);
+    }
+    .team-member-container .team-container .awards {
+        transform: translate(30%, -20%);
+    }
+    .team-member-container .team-container .content-btn {
+        transform: translate(0%, 370%);
+    }
+    .team-member-container .team-container .manager-btn {
+        transform: translate(95%, -25%);
+    }
+    .team-member-container .team-container .associate-btn {
+        transform: translate(180%, -280%);
+    }
+}
+
+
+@media screen and (max-width: 495.6px){
+    .team-member-container .team-container{
+        margin: 0 0rem !important;
+    }
 
     .team-member-container .team-container .mem .image img{
         height: 210px;
@@ -804,97 +1017,104 @@ html, body{
     }
 
 
-
-    .team-member-container .team-container .founder-btn{
-        transform: translate(-150%, -140%);
+    .team-member-container .team-container .projects {
+        transform: translate(170%, 415%);
+    }
+    .team-member-container .team-container .founder-btn {
+        transform: translate(170%, -195%);
     }
 
     .team-member-container .team-container .advisor-btn {
-        transform: translate(180%, 220%);
+        transform: translate(40%, 10%);
     }
 
     .team-member-container .team-container .UX-btn {
-        transform: translate(30%, 190%);
+        transform: translate(-55%, 420%);
     }
 
     .team-member-container .team-container .awards {
-        transform: translate(10%, -970%);
+        transform: translate(100%, -780%);
     }
 
     .team-member-container .team-container .pride {
-        transform: translate(170%, -160%);
+        transform: translate(50%, 505%);
     }
 
-    .team-member-container .team-container .developer-btn{
-        transform: translate(-70%, 360%);
+    .team-member-container .team-container .developer-btn {
+        transform: translate(-10%, 160%);
     }
 
     .team-member-container .team-container .associate-btn {
-        transform: translate(0%, -720%);
+        transform: translate(170%, -95%);
+    }
+    .team-member-container .team-container .content-btn {
+        transform: translate(35%, 10%);
+    }
+    .team-member-container .team-container .manager-btn {
+        transform: translate(260%, -45%);
+    }
+    .mem5 {
+        transform: translate(5%, -350%);
     }
 
-    .mem5{
-        transform: translate(90%, -670%);
+    .mem1 {
+        transform: translate(-65%,170%);
     }
 
-    .mem1{
-        transform: translate(-10%,0);
+    .mem10 {
+        transform: translate(15%,-120%);
     }
 
-    .mem10{
-        transform: translate(0%,-120%);
+    .mem2 {
+        transform: translate(-60%,230%);
     }
 
-    .mem2{
-        transform: translate(90%,-150%);
+    .mem9 {
+        transform: translate(130%,-75%);
     }
 
-    .mem9{
-        transform: translate(130%,-320%);
+    .mem26 {
+        transform: translate(-70%,0%);
     }
 
-    .mem26{
-        transform: translate(90%,-520%);
+    .mem4 {
+        transform: translate(60%,755%);
     }
 
-    .mem4{
-        transform: translate(0%,0%);
+    .mem6 {
+        transform: translate(80%,145%);
     }
 
-    .mem6{
-        transform: translate(20%,-300%);
+    .mem7 {
+        transform: translate(45%,-340%);
     }
 
-    .mem7{
-        transform: translate(0%,-380%);
+    .mem14 {
+        transform: translate(-70%,60%);
     }
 
-    .mem14{
-        transform: translate(30%,-710%);
+    .mem3 {
+        transform: translate(-10%,205%);
     }
 
-    .mem3{
-        transform: translate(-60%,840%);
+    .mem11 {
+        transform: translate(-165%,-279%);
     }
 
-    .mem11{
-        transform: translate(70%,-330%);
+    .mem12 {
+        transform: translate(-20%,-40%);
     }
 
-    .mem12{
-        transform: translate(-110%,-420%);
+    .mem15 {
+        transform: translate(50%,-730%);
     }
 
-    .mem15{
-        transform: translate(-40%,-590%);
-    }
-
-    .mem13{
-        transform: translate(160%,-340%);
+    .mem13 {
+        transform: translate(140%,-290%);
     }
     
-    .mem16{
-        transform: translate(40%,-390%);
+    .mem16 {
+        transform: translate(170%,-90%);
     }
 
     @media screen and (max-width: 415px){
