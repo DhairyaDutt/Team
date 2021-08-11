@@ -897,7 +897,11 @@ html, body{
         transform: translate(40%,-390%);
     }
 
-    
+    @media screen and (max-width: 415px){
+        .team-member-container .team-container .advisor-btn {
+            transform: translate(-10%, 0%);
+        }
+    }
 
 
 }
