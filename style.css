@@ -997,3 +997,35 @@ html, body{
 
 
 }
+
+@media screen and (max-width: 406px){
+
+    .team-member-container .team-container .awards {
+        transform: translate(-70%, -980%);
+    }
+
+    .team-member-container .team-container .associate-btn{
+        transform: translate(0%, -1020%);
+    }
+
+    .mem14{
+        transform: translate(-10%,-870%);
+    }
+
+    .mem12{
+        transform: translate(90%,-510%);
+    }
+
+    .mem13{
+        transform: translate(100%,-440%);
+    }
+
+    .mem15{
+        transform: translate(0%,-920%);
+    }
+
+    .mem16{
+        transform: translate(70%,-540%);
+    }
+
+}
