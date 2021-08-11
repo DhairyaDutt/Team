@@ -1029,3 +1029,27 @@ html, body{
     }
 
 }
+
+@media screen and (max-width: 381px){
+
+    .team-member-container .team-container .founder-btn{
+        transform: translate(-10%, -320%);
+    }
+    
+    .mem5{
+        transform: translate(40%,-830%);
+    }
+
+    .mem2{
+        transform: translate(40%,-100%);
+    }
+
+    .mem4{
+        transform: translate(-10%,-120%);
+    }
+
+    .mem9{
+        transform: translate(105%,-280%);
+    }
+
+}
