@@ -92,13 +92,17 @@ html, body{
     transform: translate(15%, -20%);
 }
 .team-member-container .team-container .UX-btn h1,
-.team-member-container .team-container .founder-btn h1,
 /* .team-member-container .team-container .advisor-btn h1, */
 .team-member-container .team-container .associate-btn h1{
     font-size: 68px;
     margin-bottom: -10px;
     font-weight: 700;
 }
+
+.team-member-container .team-container .founder-btn h1{
+    font-size: 30px;
+}
+
 .mem1{
     transform: translate(25%,15%);
 }
@@ -974,7 +978,7 @@ html, body{
     }
     
     .team-member-container .team-container .big3{
-        transform: translate(-55%, -145%);
+        transform: translate(310%, -180%);
     }
     .team-member-container .team-container .bottom2 {
         transform: translate(-25%, -180%);
@@ -1329,7 +1333,80 @@ html, body{
     .team-member-container .team-container .bottom23 {
         transform: translate(-55%, -130%);
     }
+
+    .team-member-container .team-container .big15 {
+        transform: translate(310%,-170%);
+    }
+
 }
+
+
+.our-team{
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+}
+.our-team img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 0;
+    transition: all 0.4s ease-in-out 0s;
+}
+.our-team:hover img{
+    right: 60%;
+}
+.our-team .team-content{
+    width: 80%;
+    height: 100%;
+    background: #f1f1f1;
+    padding: 20% 30px 0;
+    position: absolute;
+    top: 0;
+    right: -80%;
+    transition: all 0.4s ease-in-out 0s;
+}
+.our-team:hover .team-content{
+    right: 0;
+}
+.our-team .title{
+    font-size: 12px;
+    color: #8e0c80;
+    margin: 0 0 10px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 12px;
+    font-weight: 900;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.our-team .social li:last-child{
+    margin-right: 0;
+}
+.our-team .social li a{
+    display: block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #999;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.3s ease-in-out 0s;
+}
+
 
 
 /* @media screen and (max-width: 1421.6px){
