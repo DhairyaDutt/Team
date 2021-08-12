@@ -372,10 +372,10 @@ html, body{
 .team-member-container .team-container .big .image .overlay{
     opacity: 0;
 }
-.team-member-container .team-container .big .image{
+/* .team-member-container .team-container .big .image{
     top: -20%;
     left: -10%;
-}
+} */
 .team-member-container .team-container .big .image img{
     height: 260px;
     width: 260px;
