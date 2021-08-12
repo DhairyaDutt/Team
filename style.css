@@ -34,11 +34,14 @@ html, body{
 .team-member-container .team-container .mem .image{
     position: relative;
 }
+.team-member-container .team-container .mem{
+    transition: all 1s ease-in-out;
+}
 .team-member-container .team-container .mem .image .overlay{
     position: absolute;
-    transition: all 0.3s ease;
-    opacity: 0.5;
-    background-color: rgba(152, 212, 250, 0.5);
+    transition: all 1s ease;
+    opacity: 0.6;
+    /* background-color: rgba(152, 212, 250, 0.5); */
 }
 .team-member-container .team-container .mem .image:hover .overlay{
     opacity: 0;
@@ -72,6 +75,7 @@ html, body{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    transition: all 1s ease-in-out;
 }
 .team-member-container .team-container .advisor-btn{
     background-color: #8165a6;
@@ -113,12 +117,12 @@ html, body{
 
 .team-member-container .team-container .projects{
     background-color: #1ea2e0;
-    transform: translate(240%, -55%);
+    transform: translate(260%, -135%);
 }
 
 .team-member-container .team-container .content-btn{
     /* transform: translate(250%, -100%); */
-    transform: translate(80%, -110%);
+    transform: translate(110%, -290%);
     background-color: #c5397a;
 }
 .team-member-container .team-container .content-btn h2{
@@ -126,7 +130,7 @@ html, body{
 }
 .team-member-container .team-container .developer-btn{
     background-color: #1ea2e0;
-    transform: translate(-425%, 30%);
+    transform: translate(-425%, -30%);
 }
 .team-member-container .team-container .fwa h1{
     margin-bottom: -5px;
@@ -137,10 +141,10 @@ html, body{
 }
 .team-member-container .team-container .associate-btn{
     background-color: #8165a6;
-    transform: translate(80%, -280%);
+    transform: translate(80%, -640%);
 }
 .mem2{
-    transform: translate(140%, -70%);
+    transform: translate(130%, -70%);
 }
 
 .team-member-container .team-container .mem3 .image img,
@@ -169,7 +173,8 @@ html, body{
     color: #fff;
     background-color: #c5397a;
     /* transform: translate(0, -26%); */
-    transform: translate(200%, -170%);
+    transform: translate(170%, -350%);
+    transition: all 1s ease-in-out;
 }
 .team-member-container .team-container .pride{
     height: 150px;
@@ -199,7 +204,7 @@ html, body{
 }
 .team-member-container .team-container .pride{
     background-color: #070707;
-    transform: translate(140%, -110%);
+    transform: translate(150%, -270%);
 }
 .team-member-container .team-container .mem3 .image .overlay-fade,
 .team-member-container .team-container .mem4 .image .overlay-fade,
@@ -226,38 +231,38 @@ html, body{
     transform: translate(200%, -80%);
 }
 .mem5{
-    transform: translate(70%, -68%);
+    transform: translate(70%, -95%);
 }
 .mem6{
-    transform: translate(130%, -80%);
+    transform: translate(135%, -110%);
 }
 .mem7{
-    transform: translate(110%, -165%);
+    transform: translate(110%, -190%);
 }
 .mem9{
-    transform: translate(-30%, -50%);
+    transform: translate(-30%, -80%);
 }
 .mem10{
     /* transform: translate(125%, -190%); */
-    transform: translate(0, -26%);
+    transform: translate(0, -40%);
 }
 .mem11{
-    transform: translate(-480%, -90%);
+    transform: translate(-450%, -135%);
 }
 .mem12{
-    transform: translate(0%, -170%);
+    transform: translate(0%, -230%);
 }
 .mem13{
-    transform: translate(85%, -120%);
+    transform: translate(85%, -185%);
 }
 .mem14{
-    transform: translate(115%, -340%);
+    transform: translate(80%, -350%);
 }
 .mem15{
-    transform: translate(385%, -300%);
+    transform: translate(365%, -330%);
 }
 .mem16{
-    transform: translate(70%, -230%);
+    transform: translate(35%, -265%);
 }
 .mem17{
     transform: translate(20%, -185%);
@@ -272,7 +277,7 @@ html, body{
     transform: translate(170%, -270%);
 }
 .mem26{
-    transform: translate(50%, -80%);
+    transform: translate(50%, -130%);
 }
 .team-member-container .team-container .mem9 .image img{
     width: 200px;
@@ -317,6 +322,7 @@ html, body{
     border-radius: 50%;
     background-color: #7acef0;
     color: #fff;
+    transition: all 1s ease-in-out;
 }
 .team-member-container .team-container .partnership{
     background-color: #73c2d5;
@@ -346,7 +352,7 @@ html, body{
 }
 .team-member-container .team-container .manager-btn{
     background-color: #2f2f5f;
-    transform: translate(170%, -370%);
+    transform: translate(180%, -730%);
 }
 .team-member-container .team-container .planner-btn{
     background-color: #1ea2e0;
@@ -359,11 +365,63 @@ html, body{
     border-radius: 50%;
 } */
 
+.team-member-container .team-container .mem1 .image .overlay-fade{
+    background-color: #c5397a;
+}
+.team-member-container .team-container .mem2 .image .overlay-fade{
+    background-color: #1ea2e0;
+}
+.team-member-container .team-container .mem3 .image .overlay-fade{
+    background-color: #1ea2e0;
+}
+.team-member-container .team-container .mem4 .image .overlay-fade{
+    background-color: #8165a6;
+}
+.team-member-container .team-container .mem10 .image .overlay-fade{
+    background-color: #8165a6;
+}
+.team-member-container .team-container .mem9 .image .overlay-fade{
+    background-color: #73c2d5;
+}
+.team-member-container .team-container .mem7 .image .overlay-fade{
+    background-color: #8165a6;
+}
+.team-member-container .team-container .mem6 .image .overlay-fade{
+    background-color: #2f2f5f;
+}
+.team-member-container .team-container .mem5 .image .overlay-fade{
+    background-color: #8165a6;
+}
+.team-member-container .team-container .mem11 .image .overlay-fade{
+    background-color: #8165a6;
+}
+.team-member-container .team-container .mem26 .image .overlay-fade{
+    background-color: #c5397a;
+}
+.team-member-container .team-container .mem12 .image .overlay-fade{
+    background-color: #1ea2e0;
+}
+.team-member-container .team-container .mem16 .image .overlay-fade{
+    background-color: #2f2f5f;
+}
+.team-member-container .team-container .mem14 .image .overlay-fade{
+    background-color: #8165a6;
+}
+.team-member-container .team-container .mem15 .image .overlay-fade{
+    background-color: #2f2f5f;
+}
+.team-member-container .team-container .mem13 .image .overlay-fade{
+    background-color: #c5397a;
+}
+
+
 /* ************************ Functional css ***************************** */
 .mem .content{
-    display: none;
+    visibility: hidden;
     text-align: center;
-    transition: display 100s ease-in-out;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 2s ease-in;
 }
 
 .team-member-container .team-container .big{
@@ -372,63 +430,909 @@ html, body{
 .team-member-container .team-container .big .image .overlay{
     opacity: 0;
 }
-/* .team-member-container .team-container .big .image{
-    top: -20%;
-    left: -10%;
-} */
+.team-member-container .team-container .big1{
+    transform: translate(15%, 0%);
+}
 .team-member-container .team-container .big .image img{
     height: 260px;
     width: 260px;
-    transition: all 0.5s ease-in-out;
 }
 .team-member-container .team-container .big .image .overlay-fade{
     display: none;
 }
 .big .content{
-    display: block;
-    transition: display 100s ease-in-out;
-    margin-top: -200px;
-    margin-left: -40px;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+.team-member-container .team-container .left{
+    transform: translate(20%, 35%);
+    transition: all 1s ease-in-out;
+}
+
+.team-member-container .team-container .top1,
+.team-member-container .team-container .top2,
+.team-member-container .team-container .left1,
+.team-member-container .team-container .right2{
+    transition: all 1s ease-in-out;
+}
+.team-member-container .team-container .big2 {
+    transform: translate(120%, -90%);
+}
+.team-member-container .team-container .top1{
+    transform: translate(20%, -30%);
+}
+.team-member-container .team-container .top2{
+    transform: translate(35%, -45%);
+}
+.team-member-container .team-container .top-right {
+    transform: translate(30%, -15%);
+}
+
+.team-member-container .team-container .big3{
+    transform: translate(-55%, -145%);
+}
+.team-member-container .team-container .bottom2 {
+    transform: translate(-25%, -180%);
+}
+.team-member-container .team-container .left1 {
+    transform: translate(-185%, -755%);
+}
+.team-member-container .team-container .left2 {
+    transform: translate(-115%, -320%);
+}
+.team-member-container .team-container .left5{
+    transform: translate(-240%, -250%);
+}
+.team-member-container .team-container .top-left{
+    transform: translate(-320%, -610%);
+}
+.team-member-container .team-container .bottom5 {
+    transform: translate(-190%, -190%);
+}
+.team-member-container .team-container .top3 {
+    transform: translate(0%, -105%);
+}
+.team-member-container .team-container .bottom1 {
+    transform: translate(465%, -220%);
+}
+.team-member-container .team-container .right1 {
+    transform: translate(400%, -470%);
+}
+.team-member-container .team-container .biggest{
+    transform: translate(0%, -110%);
+}
+.biggest .content{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+.team-member-container .team-container .bottom3{
+    transform: translate(-55%, -125%);
+}
+.team-member-container .team-container .right2 {
+    transform: translate(20%, -235%);
+}
+.team-member-container .team-container .top4 {
+    transform: translate(125%, -80%);
+}
+.team-member-container .team-container .left3 {
+    transform: translate(-35%, -190%);
+}
+.team-member-container .team-container .left4 {
+    transform: translate(-110%, -80%);
+}
+.team-member-container .team-container .right3 {
+    transform: translate(475%, -235%);
+}
+.team-member-container .team-container .bottom4{
+    transform: translate(-170%, -200%);
+}
+
+.team-member-container .team-container .big4{
+    transform: translate(-20%, -50%);
+}
+.team-member-container .team-container .top-left1{    
+    transform: translate(40%, 30%);
+}
+.team-member-container .team-container .left6{
+    transform: translate(90%, -65%);
+}
+.team-member-container .team-container .left7{
+    transform: translate(155%, -100%);
+}
+.team-member-container .team-container .top-left2{
+    transform: translate(100%, -70%);
+}
+.team-member-container .team-container .bottom6 {
+    transform: translate(-100%, -60%);
+}
+.team-member-container .team-container .bottom7 {
+    transform: translate(10%, -280%);
+}
+.team-member-container .team-container .left8 {
+    transform: translate(200%, -335%);
+}
+/* .mem5 {
+    transform: translate(30%, -100%);
+}
+.mem7 {
+    transform: translate(5%, -200%);
+}
+.mem26 {
+    transform: translate(-10%, -140%);
+}
+.team-member-container .team-container .manager-btn {
+    transform: translate(40%, -740%);
+}
+.team-member-container .team-container .pride {
+    background-color: #070707;
+    transform: translate(65%, -270%);
+}
+.mem14 {
+    transform: translate(-25%, -355%);
+}
+.mem6 {
+    transform: translate(500%, -250%);
+}
+.team-member-container .team-container .awards {
+    transform: translate(60%, -390%);
+}
+.team-member-container .team-container .content-btn {
+    transform: translate(0%, -290%);
+} */
+
+.team-member-container .team-container .big5 {
+    transform: translate(-100%, -105%);
+}
+.team-member-container .team-container .top5{
+    transform: translate(0%, -50%);
+}
+.team-member-container .team-container .top6{
+    transform: translate(-100%, -285%);
+}
+.team-member-container .team-container .left9{
+    transform: translate(-25%, -105%);
+}
+.team-member-container .team-container .left10 {
+    transform: translate(-40%, -235%);
+}
+
+.team-member-container .team-container .big6{
+    transform: translate(-100%, -270%);
+}
+.team-member-container .team-container .top7{
+    transform: translate(-100%, -100%);
+}
+.team-member-container .team-container .top8{
+    transform: translate(0%, -50%);
+}
+.team-member-container .team-container .bottom-left {
+    transform: translate(-240%, -155%);
+}
+.team-member-container .team-container .left11 {
+    transform: translate(-225%, -655%);
+}
+.team-member-container .team-container .top-left3 {
+    transform: translate(260%, -490%);
+}
+.team-member-container .team-container .top-left4 {
+    transform: translate(170%, -415%);
+}
+.team-member-container .team-container .top-right2 {
+    transform: translate(220%, -840%);
+}
+.team-member-container .team-container .top-left5 {
+    transform: translate(-50%, -370%);
+}
+.team-member-container .team-container .top-right1 {
+    transform: translate(200%, -360%);
+}
+
+.team-member-container .team-container .big7 {
+    transform: translate(-200%, -190%);
+}
+.team-member-container .team-container .bottom8 {
+    transform: translate(-100%, -235%);
+}
+.team-member-container .team-container .left12 {
+    transform: translate(-175%, -710%);
+}
+.team-member-container .team-container .left13 {
+    transform: translate(265%, -490%);
+}
+.team-member-container .team-container .top-left6 {
+    transform: translate(160%, -415%);
+}
+.team-member-container .team-container .top-left7 {
+    transform: translate(-70%, -390%);
+}
+.team-member-container .team-container .top9 {
+    transform: translate(-90%, -340%);
+}
+.team-member-container .team-container .top-right3 {
+    transform: translate(175%, -360%);
+}
+.team-member-container .team-container .top-right4 {
+    transform: translate(370%, -880%);
+}
+
+.team-member-container .team-container .big8 {
+    transform: translate(55%, -85%);
+}
+.team-member-container .team-container .left14 {
+    background-color: #8165a6;
+    transform: translate(20%, 40%);
+}
+.team-member-container .team-container .left15 {
+    transform: translate(5%,15%);
+}
+.team-member-container .team-container .left16 {
+    background-color: #1ea2e0;
+    transform: translate(-25%, -20%);
+}
+.team-member-container .team-container .left17 {
+    transform: translate(-10%, -30%);
+    background-color: #8165a6;
+}
+.team-member-container .team-container .top-left8{
+    transform: translate(-5%, -20%);
+}
+.team-member-container .team-container .left18 {
+    transform: translate(95%, -75%);
+}
+.team-member-container .team-container .bottom-left1 {
+    transform: translate(110%, -45%);
+}
+.team-member-container .team-container .bottom9 {
+    transform: translate(460%, -205%);
+}
+.team-member-container .team-container .top-left9 {
+    transform: translate(370%, -455%);
+}
+
+.team-member-container .team-container .big9 {
+    transform: translate(330%, -235%);
+}
+.team-member-container .team-container .top10 {
+    transform: translate(215%, -120%);
+}
+.team-member-container .team-container .left21 {
+    transform: translate(-10%, -235%);
+}
+.team-member-container .team-container .top11 {
+    transform: translate(-10%, -100%);
+}
+.team-member-container .team-container .top12 {
+    transform: translate(-85%, -190%);
+}
+.team-member-container .team-container .left19 {
+    transform: translate(-110%, -80%);
+}
+.team-member-container .team-container .left20 {
+    transform: translate(355%, -465%);
+}
+.team-member-container .team-container .top13 {
+    transform: translate(-90%, -280%);
+}
+.team-member-container .team-container .bottom10 {
+    transform: translate(-70%, -130%);
+}
+.team-member-container .team-container .top14 {
+    transform: translate(-160%, -800%);
+}
+.team-member-container .team-container .top15 {
+    transform: translate(-215%, -240%);
+}
+.team-member-container .team-container .top-left10 {
+    transform: translate(-290%, -585%);
+}
+.team-member-container .team-container .bottom11 {
+    transform: translate(315%, -365%);
+}
+
+.team-member-container .team-container .big10{
+    transform: translate(250%, -375%);
+}
+.team-member-container .team-container .bottom12 {
+    transform: translate(300%, -270%);
+}
+.team-member-container .team-container .bottom14 {
+    transform: translate(-100%, -200%);
+}
+.team-member-container .team-container .bottom13 {
+    transform: translate(75%, -225%);
+}
+.team-member-container .team-container .top16 {
+    transform: translate(0%, -270%);
+}
+.team-member-container .team-container .left22 {
+    transform: translate(-5%, -100%);
+}
+
+.team-member-container .team-container .big11{    
+    transform: translate(215%, -310%);
+}
+.team-member-container .team-container .bottom15 {
+    transform: translate(360%, -345%);
+}
+.team-member-container .team-container .top17 {
+    transform: translate(530%, -565%);
+}
+.team-member-container .team-container .bottom16 {
+    transform: translate(25%, -250%);
+}
+.team-member-container .team-container .left23 {
+    transform: translate(-65%, -140%);
+}
+.team-member-container .team-container .bottom17 {
+    transform: translate(-210%, -220%);
+}
+.team-member-container .team-container .top-left11 {
+    transform: translate(-255%, -225%);
+}
+.team-member-container .team-container .top18 {
+    transform: translate(-370%, -580%);
+}
+.team-member-container .team-container .left24 {
+    transform: translate(-185%, -655%);
 }
 
 
-.team-member-container .team-container .big1 .image{
-    top: 5%;
-    left: -30%;
+.team-member-container .team-container .big12 {
+    transform: translate(50%, -275%);
 }
-.big .content{
-    margin-top: 10px;
-    margin-left: -110px;
+.team-member-container .team-container .bottom18 {
+    transform: translate(360%, -345%);
+}
+.team-member-container .team-container .bottom19 {
+    transform: translate(345%, -270%);
+}
+.team-member-container .team-container .left25 {
+    transform: translate(-110%, -295%);
+}
+.team-member-container .team-container .left26 {
+    transform: translate(505%, -530%);
+}
+.team-member-container .team-container .left27 {
+    transform: translate(-70%, -145%);
+}
+.team-member-container .team-container .left28 {
+    transform: translate(-210%, -220%);
 }
 
-@media screen and (max-width: 1451.6px){
+.team-member-container .team-container .big13 {
+    transform: translate(125%, -275%);
+}
+.team-member-container .team-container .top19 {
+    transform: translate(-55%, -150%);
+}
+.team-member-container .team-container .bottom20 {
+    transform: translate(230%, -350%);
+}
+.team-member-container .team-container .top20 {
+    transform: translate(-80%, -340%);
+}
+.team-member-container .team-container .right4 {
+    transform: translate(-70%, -265%);
+}
+.team-member-container .team-container .right5 {
+    transform: translate(170%, -270%);
+}
+.team-member-container .team-container .top21 {
+    transform: translate(-175%, -685%);
+}
+.team-member-container .team-container .top22 {
+    transform: translate(-240%, -225%);
+}
+.team-member-container .team-container .top-left12 {
+    transform: translate(100%, -840%);
+}
 
-    .mem11{
-        transform: translate(-15%, -275%);
+.team-member-container .team-container .big14 {
+    transform: translate(-35%, -195%);
+}
+.team-member-container .team-container .left29 {
+    transform: translate(-110%, -80%);
+}
+.team-member-container .team-container .right6 {
+    transform: translate(10%, -105%);
+}
+.team-member-container .team-container .right7 {
+    transform: translate(25%, -235%);
+}
+.team-member-container .team-container .bottom21 {
+    transform: translate(480%, -215%);
+}
+.team-member-container .team-container .bottom22 {
+    transform: translate(440%, -485%);
+}
+.team-member-container .team-container .right8 {
+    transform: translate(-80%, -360%);
+}
+.team-member-container .team-container .bottom23 {
+    transform: translate(-55%, -130%);
+}
+@media screen and (max-width: 1450.6px){
+    .mem4{
+        transform: translate(160%, -80%);
     }
-    .mem12{
-        transform: translate(-115%, -165%);
+    .mem2 {
+        transform: translate(125%, -75%);
+    }
+    .mem5 {
+        transform: translate(0%, -100%);
+    }
+    .mem6 {
+        transform: translate(460%, -220%);
+    }
+    .mem9 {
+        transform: translate(-100%, -80%);
+    }
+    .mem7 {
+        transform: translate(-25%, -190%);
+    }
+    .mem26 {
+        transform: translate(-55%, -140%);
+    }
+    .mem11 {
+        transform: translate(-100%, -310%);
+    }
+    .mem10{
+        transform: translate(0, -40%);
+    }
+    .mem12 {
+        transform: translate(-215%, -210%);
     }
     .mem13 {
-        transform: translate(-20%, -120%);
+        transform: translate(-190%, -220%);
     }
-    .mem14{
-        transform: translate(-7%, -340%);
+    .mem14 {
+        transform: translate(360%, -455%);
     }
     .mem15 {
-        transform: translate(277%, -305%);
+        transform: translate(90%, -340%);
     }
     .mem16 {
-        transform: translate(515%, -345%);
+        transform: translate(295%, -380%);
     }
     .team-member-container .team-container .associate-btn {
-        transform: translate(-50%, -270%);
+        transform: translate(-260%, -550%);
     }
-    .team-member-container .team-container .manager-btn{
-        transform: translate(-15%, -370%);
+    .team-member-container .team-container .manager-btn {
+        transform: translate(-175%, -655%);
+    }
+    .team-member-container .team-container .projects {
+        transform: translate(215%, -100%);
+    }
+    .team-member-container .team-container .developer-btn {
+        transform: translate(160%, -310%);
+    }
+    .team-member-container .team-container .pride {
+        transform: translate(0%, -235%);
+    }
+    .team-member-container .team-container .content-btn {
+        transform: translate(-90%, -295%);
+    }
+    .team-member-container .team-container .awards{
+        transform: translate(545%, -530%);
+    }
+
+    /* ************************Function CSS******************************* */
+
+    .mem .content{
+        visibility: hidden;
+        text-align: center;
+        margin-top: 10px;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+    }
+    
+    .team-member-container .team-container .big{
+        margin: 30px;
+    }
+    .team-member-container .team-container .big .image .overlay{
+        opacity: 0;
+    }
+    .team-member-container .team-container .big1{
+        transform: translate(15%, 0%);
+    }
+    .team-member-container .team-container .big .image img{
+        height: 260px;
+        width: 260px;
+    }
+    .team-member-container .team-container .big .image .overlay-fade{
+        display: none;
+    }
+    .big .content{
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.3s ease-in;
+    }
+    .team-member-container .team-container .left{
+        transform: translate(20%, 35%);
+        transition: all 1s ease-in-out;
+    }
+    
+    .team-member-container .team-container .top1,
+    .team-member-container .team-container .top2,
+    .team-member-container .team-container .left1,
+    .team-member-container .team-container .right2{
+        transition: all 1s ease-in-out;
+    }
+    .team-member-container .team-container .big2 {
+        transform: translate(120%, -90%);
+    }
+    .team-member-container .team-container .top1{
+        transform: translate(20%, -30%);
+    }
+    .team-member-container .team-container .top2{
+        transform: translate(35%, -45%);
+    }
+    .team-member-container .team-container .top-right {
+        transform: translate(30%, -15%);
+    }
+    
+    .team-member-container .team-container .big3{
+        transform: translate(-55%, -145%);
+    }
+    .team-member-container .team-container .bottom2 {
+        transform: translate(-25%, -180%);
+    }
+    .team-member-container .team-container .left1 {
+        transform: translate(-185%, -755%);
+    }
+    .team-member-container .team-container .left2 {
+        transform: translate(-115%, -320%);
+    }
+    .team-member-container .team-container .left5{
+        transform: translate(-240%, -250%);
+    }
+    .team-member-container .team-container .top-left{
+        transform: translate(-320%, -610%);
+    }
+    .team-member-container .team-container .bottom5 {
+        transform: translate(-190%, -190%);
+    }
+    .team-member-container .team-container .top3 {
+        transform: translate(0%, -105%);
+    }
+    .team-member-container .team-container .bottom1 {
+        transform: translate(465%, -220%);
+    }
+    .team-member-container .team-container .right1 {
+        transform: translate(400%, -470%);
+    }
+    .team-member-container .team-container .biggest{
+        transform: translate(0%, -110%);
+    }
+    .biggest .content{
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.3s ease-in;
+    }
+    .team-member-container .team-container .bottom3{
+        transform: translate(-55%, -125%);
+    }
+    .team-member-container .team-container .right2 {
+        transform: translate(20%, -235%);
+    }
+    .team-member-container .team-container .top4 {
+        transform: translate(125%, -80%);
+    }
+    .team-member-container .team-container .left3 {
+        transform: translate(-35%, -190%);
+    }
+    .team-member-container .team-container .left4 {
+        transform: translate(-110%, -80%);
+    }
+    .team-member-container .team-container .right3 {
+        transform: translate(475%, -235%);
+    }
+    .team-member-container .team-container .bottom4{
+        transform: translate(-170%, -200%);
+    }
+    
+    .team-member-container .team-container .big4{
+        transform: translate(-20%, -50%);
+    }
+    .team-member-container .team-container .top-left1{    
+        transform: translate(40%, 30%);
+    }
+    .team-member-container .team-container .left6{
+        transform: translate(90%, -65%);
+    }
+    .team-member-container .team-container .left7{
+        transform: translate(155%, -100%);
+    }
+    .team-member-container .team-container .top-left2{
+        transform: translate(100%, -70%);
+    }
+    .team-member-container .team-container .bottom6 {
+        transform: translate(-100%, -60%);
+    }
+    .team-member-container .team-container .bottom7 {
+        transform: translate(-100%, -285%);
+    }
+    .team-member-container .team-container .left8 {
+        transform: translate(200%, -335%);
+    }
+    
+    .team-member-container .team-container .big5 {
+        transform: translate(-100%, -105%);
+    }
+    .team-member-container .team-container .top5{
+        transform: translate(0%, -50%);
+    }
+    .team-member-container .team-container .top6{
+        transform: translate(-100%, -285%);
+    }
+    .team-member-container .team-container .left9{
+        transform: translate(-25%, -105%);
+    }
+    .team-member-container .team-container .left10 {
+        transform: translate(-40%, -235%);
+    }
+    
+    .team-member-container .team-container .big6{
+        transform: translate(-100%, -270%);
+    }
+    .team-member-container .team-container .top7{
+        transform: translate(-100%, -100%);
+    }
+    .team-member-container .team-container .top8{
+        transform: translate(0%, -50%);
+    }
+    .team-member-container .team-container .bottom-left {
+        transform: translate(-240%, -155%);
+    }
+    .team-member-container .team-container .left11 {
+        transform: translate(-225%, -655%);
+    }
+    .team-member-container .team-container .top-left3 {
+        transform: translate(260%, -490%);
+    }
+    .team-member-container .team-container .top-left4 {
+        transform: translate(170%, -415%);
+    }
+    .team-member-container .team-container .top-right2 {
+        transform: translate(220%, -840%);
+    }
+    .team-member-container .team-container .top-left5 {
+        transform: translate(-50%, -370%);
+    }
+    .team-member-container .team-container .top-right1 {
+        transform: translate(200%, -360%);
+    }
+    
+    .team-member-container .team-container .big7 {
+        transform: translate(-200%, -190%);
+    }
+    .team-member-container .team-container .bottom8 {
+        transform: translate(-100%, -235%);
+    }
+    .team-member-container .team-container .left12 {
+        transform: translate(-175%, -710%);
+    }
+    .team-member-container .team-container .left13 {
+        transform: translate(265%, -490%);
+    }
+    .team-member-container .team-container .top-left6 {
+        transform: translate(160%, -415%);
+    }
+    .team-member-container .team-container .top-left7 {
+        transform: translate(-70%, -390%);
+    }
+    .team-member-container .team-container .top9 {
+        transform: translate(-90%, -340%);
+    }
+    .team-member-container .team-container .top-right3 {
+        transform: translate(175%, -360%);
+    }
+    .team-member-container .team-container .top-right4 {
+        transform: translate(370%, -880%);
+    }
+    
+    .team-member-container .team-container .big8 {
+        transform: translate(55%, -85%);
+    }
+    .team-member-container .team-container .left14 {
+        background-color: #8165a6;
+        transform: translate(20%, 40%);
+    }
+    .team-member-container .team-container .left15 {
+        transform: translate(5%,15%);
+    }
+    .team-member-container .team-container .left16 {
+        background-color: #1ea2e0;
+        transform: translate(-25%, -20%);
+    }
+    .team-member-container .team-container .left17 {
+        transform: translate(-10%, -30%);
+        background-color: #8165a6;
+    }
+    .team-member-container .team-container .top-left8{
+        transform: translate(-5%, -20%);
+    }
+    .team-member-container .team-container .left18 {
+        transform: translate(95%, -75%);
+    }
+    .team-member-container .team-container .bottom-left1 {
+        transform: translate(110%, -45%);
+    }
+    .team-member-container .team-container .bottom9 {
+        transform: translate(460%, -205%);
+    }
+    .team-member-container .team-container .top-left9 {
+        transform: translate(370%, -455%);
+    }
+    
+    .team-member-container .team-container .big9 {
+        transform: translate(330%, -235%);
+    }
+    .team-member-container .team-container .top10 {
+        transform: translate(215%, -120%);
+    }
+    .team-member-container .team-container .left21 {
+        transform: translate(-10%, -235%);
+    }
+    .team-member-container .team-container .top11 {
+        transform: translate(-10%, -100%);
+    }
+    .team-member-container .team-container .top12 {
+        transform: translate(-85%, -190%);
+    }
+    .team-member-container .team-container .left19 {
+        transform: translate(-110%, -80%);
+    }
+    .team-member-container .team-container .left20 {
+        transform: translate(355%, -465%);
+    }
+    .team-member-container .team-container .top13 {
+        transform: translate(-90%, -280%);
+    }
+    .team-member-container .team-container .bottom10 {
+        transform: translate(-70%, -130%);
+    }
+    .team-member-container .team-container .top14 {
+        transform: translate(-160%, -800%);
+    }
+    .team-member-container .team-container .top15 {
+        transform: translate(-215%, -240%);
+    }
+    .team-member-container .team-container .top-left10 {
+        transform: translate(-290%, -585%);
+    }
+    .team-member-container .team-container .bottom11 {
+        transform: translate(315%, -365%);
+    }
+    
+    .team-member-container .team-container .big10{
+        transform: translate(250%, -375%);
+    }
+    .team-member-container .team-container .bottom12 {
+        transform: translate(300%, -270%);
+    }
+    .team-member-container .team-container .bottom14 {
+        transform: translate(-100%, -200%);
+    }
+    .team-member-container .team-container .bottom13 {
+        transform: translate(75%, -225%);
+    }
+    .team-member-container .team-container .top16 {
+        transform: translate(0%, -270%);
+    }
+    .team-member-container .team-container .left22 {
+        transform: translate(-5%, -100%);
+    }
+    
+    .team-member-container .team-container .big11{    
+        transform: translate(215%, -310%);
+    }
+    .team-member-container .team-container .bottom15 {
+        transform: translate(360%, -345%);
+    }
+    .team-member-container .team-container .top17 {
+        transform: translate(530%, -565%);
+    }
+    .team-member-container .team-container .bottom16 {
+        transform: translate(25%, -250%);
+    }
+    .team-member-container .team-container .left23 {
+        transform: translate(-65%, -140%);
+    }
+    .team-member-container .team-container .bottom17 {
+        transform: translate(-210%, -220%);
+    }
+    .team-member-container .team-container .top-left11 {
+        transform: translate(-255%, -225%);
+    }
+    .team-member-container .team-container .top18 {
+        transform: translate(-370%, -580%);
+    }
+    .team-member-container .team-container .left24 {
+        transform: translate(-185%, -655%);
+    }
+    
+    
+    .team-member-container .team-container .big12 {
+        transform: translate(50%, -275%);
+    }
+    .team-member-container .team-container .bottom18 {
+        transform: translate(360%, -345%);
+    }
+    .team-member-container .team-container .bottom19 {
+        transform: translate(345%, -270%);
+    }
+    .team-member-container .team-container .left25 {
+        transform: translate(-110%, -295%);
+    }
+    .team-member-container .team-container .left26 {
+        transform: translate(505%, -530%);
+    }
+    .team-member-container .team-container .left27 {
+        transform: translate(-70%, -145%);
+    }
+    .team-member-container .team-container .left28 {
+        transform: translate(-210%, -220%);
+    }
+    
+    .team-member-container .team-container .big13 {
+        transform: translate(125%, -275%);
+    }
+    .team-member-container .team-container .top19 {
+        transform: translate(-55%, -150%);
+    }
+    .team-member-container .team-container .bottom20 {
+        transform: translate(230%, -350%);
+    }
+    .team-member-container .team-container .top20 {
+        transform: translate(-80%, -340%);
+    }
+    .team-member-container .team-container .right4 {
+        transform: translate(-70%, -265%);
+    }
+    .team-member-container .team-container .right5 {
+        transform: translate(170%, -270%);
+    }
+    .team-member-container .team-container .top21 {
+        transform: translate(-175%, -685%);
+    }
+    .team-member-container .team-container .top22 {
+        transform: translate(-240%, -225%);
+    }
+    .team-member-container .team-container .top-left12 {
+        transform: translate(100%, -840%);
+    }
+    
+    .team-member-container .team-container .big14 {
+        transform: translate(-35%, -195%);
+    }
+    .team-member-container .team-container .left29 {
+        transform: translate(-110%, -80%);
+    }
+    .team-member-container .team-container .right6 {
+        transform: translate(10%, -105%);
+    }
+    .team-member-container .team-container .right7 {
+        transform: translate(25%, -235%);
+    }
+    .team-member-container .team-container .bottom21 {
+        transform: translate(480%, -215%);
+    }
+    .team-member-container .team-container .bottom22 {
+        transform: translate(440%, -485%);
+    }
+    .team-member-container .team-container .right8 {
+        transform: translate(-80%, -360%);
+    }
+    .team-member-container .team-container .bottom23 {
+        transform: translate(-55%, -130%);
     }
 }
-@media screen and (max-width: 1421.6px){
+
+
+/* @media screen and (max-width: 1421.6px){
     .mem4 {
         transform: translate(-210%, 0%);
     }
@@ -487,8 +1391,8 @@ html, body{
     .team-member-container .team-container .associate-btn {
         transform: translate(-195%, -265%);
     }
-}
-@media screen and (max-width: 1391.6px) {
+} */
+/* @media screen and (max-width: 1391.6px) {
     .team-member-container .team-container .advisor-btn {
         transform: translate(15%, 45%);
     }
@@ -564,8 +1468,7 @@ html, body{
 }
 @media screen and (max-width: 1321.6px) {
     
-}
-
+} */
 @media screen and (max-width: 1200.6px) {
     .team-member-container .team-container .advisor-btn {
         transform: translate(-50%, 45%);
@@ -647,8 +1550,7 @@ html, body{
     }
 }
 
-@media screen and (max-width: 992px){
-
+@media screen and (max-width: 1024px){
     .team-member-container .team-container{
         flex-wrap: wrap;
         padding: 0;
@@ -798,10 +1700,15 @@ html, body{
         transform: translate(-230%, 440%);
     }
 
-    .team-member-container .team-container .associate-btn{
-        transform: translate(20%, -490%);
+    .team-member-container .team-container .associate-btn {
+        transform: translate(20%, -470%);
     }
-
+    .team-member-container .team-container .manager-btn {
+        transform: translate(105%, -790%);
+    }
+    .team-member-container .team-container .content-btn {
+        transform: translate(310%, -265%);
+    }
     .mem5{
         transform: translate(-100%, -350%);
     }
@@ -827,7 +1734,7 @@ html, body{
     }
 
     .mem4 {
-        transform: translate(20%, 120%);
+        transform: translate(45%, 115%);
     }
 
     .mem7{
@@ -839,11 +1746,11 @@ html, body{
     }
 
     .mem11 {
-        transform: translate(60%, -250%);
+        transform: translate(-60%, -265%);
     }
 
     .mem12 {
-        transform: translate(50%, -330%);
+        transform: translate(50%, -275%);
     }
 
     .mem13 {
@@ -1119,7 +2026,7 @@ html, body{
     }
 
     .team-member-container .team-container .pride {
-        transform: translate(50%, 505%);
+        transform: translate(50%, 580%);
     }
 
     .team-member-container .team-container .developer-btn {
@@ -1184,7 +2091,7 @@ html, body{
     }
 
     .mem12 {
-        transform: translate(-20%,-40%);
+        transform: translate(0%,-50%);
     }
 
     .mem15 {
@@ -1199,143 +2106,279 @@ html, body{
         transform: translate(170%,-90%);
     }
 }
-
-@media screen and (max-width: 415px){
-
-    .team-member-container .team-container .founder-btn{
-        transform: translate(10%, -320%);
+@media screen and (max-width: 469.6px){
+    .mem2 {
+        transform: translate(-70%,230%);
     }
+    .team-member-container .team-container .developer-btn {
+        transform: translate(-25%, 160%);
+    }
+    .mem6 {
+        transform: translate(75%,-55%);
+    }
+    .mem15 {
+        transform: translate(50%,-755%);
+    }
+    .team-member-container .team-container .projects {
+        transform: translate(200%, 425%);
+    }
+    .mem11 {
+        transform: translate(165%,-190%);
+    }
+    .mem12 {
+        transform: translate(50%,-130%);
+    }
+    .mem13 {
+        transform: translate(30%,-200%);
+    }
+    .mem14 {
+        transform: translate(50%,-30%);
+    }
+    .mem16 {
+        transform: translate(35%,-65%);
+    }
+    .team-member-container .team-container .manager-btn {
+        transform: translate(-50%, 445%);
+    }
+    .team-member-container .team-container .associate-btn {
+        transform: translate(70%, -70%);
+    }
+    .team-member-container .team-container .pride {
+        transform: translate(50%, 605%);
+    }
+}
+@media screen and (max-width: 449.6px) {
+    .mem10 {
+        transform: translate(-110%,-120%);
+    }
+    .mem5 {
+        transform: translate(-5%, -425%);
+    }
+    .team-member-container .team-container .UX-btn {
+        transform: translate(105%, 90%);
+    }
+    .mem3 {
+        transform: translate(20%,140%);
+    }
+    .mem9 {
+        transform: translate(135%,-225%);
+    }
+    .mem7 {
+        transform: translate(150%,-350%);
+    }
+    .team-member-container .team-container .awards {
+        transform: translate(-35%, -610%);
+    }
+    .mem2 {
+        transform: translate(20%,180%);
+    }
+    .team-member-container .team-container .developer-btn {
+        transform: translate(45%, 60%);
+    }
+    .mem6 {
+        transform: translate(75%,-110%);
+    }
+    .mem15 {
+        transform: translate(35%,-820%);
+    }
+    .mem11 {
+        transform: translate(155%,-375%);
+    }
+    .mem26 {
+        transform: translate(-75%,-35%);
+    }
+    .team-member-container .team-container .manager-btn {
+        transform: translate(60%, -260%);
+    }
+    .mem12 {
+        transform: translate(50%,-280%);
+    }
+    .mem13 {
+        transform: translate(30%,-230%);
+    }
+    .team-member-container .team-container .content-btn {
+        transform: translate(35%, 80%);
+    }
+    .mem4 {
+        transform: translate(120%,700%);
+    }
+    .team-member-container .team-container .pride {
+        transform: translate(50%, 550%);
+    }
+    .mem14 {
+        transform: translate(40%,-75%);
+    }
+    .mem16 {
+        transform: translate(20%,-5%);
+    }
+    .team-member-container .team-container .associate-btn {
+        transform: translate(-70%, -80%);
+    }
+    .team-member-container .team-container .projects {
+        transform: translate(0%, 1160%);
+    }
+}
+@media screen and (max-width: 439.6px) {
+    .mem9 {
+        transform: translate(135%,-185%);
+    }
+    .mem5 {
+        transform: translate(60%, -510%);
+    }
+    .mem10 {
+        transform: translate(-100%,-30%);
+    }
+    .mem3 {
+        transform: translate(20%,190%);
+    }
+    .mem1 {
+        transform: translate(-5%,240%);
+    }
+    .team-member-container .team-container .developer-btn {
+        transform: translate(-80%, 30%);
+    }
+    .mem2 {
+        transform: translate(70%,185%);
+    }
+    .team-member-container .team-container .manager-btn {
+        transform: translate(60%, -775%);
+    }
+    .mem7 {
+        transform: translate(20%,-170%);
+    }
+    .mem6 {
+        transform: translate(45%,-110%);
+    }
+    .team-member-container .team-container .awards {
+        transform: translate(45%, -270%);
+    }
+    .mem11 {
+        transform: translate(40%,-330%);
+    }
+    .mem15 {
+        transform: translate(25%,-585%);
+    }
+    .mem26 {
+        transform: translate(10%,0%);
+    }
+    .team-member-container .team-container .content-btn {
+        transform: translate(0%, 110%);
+    }
+    .mem13 {
+        transform: translate(25%,-265%);
+    }
+    .team-member-container .team-container .pride {
+        transform: translate(-150%, 665%);
+    }
+    .mem4 {
+        transform: translate(140%,840%);
+    }
+    .mem14 {
+        transform: translate(-85%,-40%);
+    }
+    .team-member-container .team-container .projects {
+        transform: translate(0%, 1310%);
+    }
+    .mem16 {
+        transform: translate(125%,-30%);
+    }
+    .team-member-container .team-container .associate-btn {
+        transform: translate(50%, -190%);
+    }
+    .mem12 {
+        transform: translate(50%,-110%);
+    }
+}
+@media screen and (max-width: 419.6px) {
+    .team-member-container .team-container .founder-btn {
+        transform: translate(-15%, -130%);
+    }
+    .mem5 {
+        transform: translate(60%, -600%);
+    }
+    .mem10 {
+        transform: translate(25%,-135%);
+    }
+    .team-member-container .team-container .UX-btn {
+        transform: translate(175%, 25%);
+    }
+    .mem1 {
+        transform: translate(65%,210%);
+    }
+    .mem3 {
+        transform: translate(-70%,280%);
+    }
+}
+
+
+@media screen and (max-width: 380.6px){
 
     .team-member-container .team-container .advisor-btn {
-        transform: translate(-20%, 200%);
+        transform: translate(30%, 10%);
     }
-
+    .team-member-container .team-container .founder-btn {
+        transform: translate(155%, -310%);
+    }
+    .mem5 {
+        transform: translate(40%, -665%);
+    }
+    .mem10 {
+        transform: translate(25%,-230%);
+    }
     .team-member-container .team-container .UX-btn {
-        transform: translate(-90%, 420%);
+        transform: translate(70%, 25%);
     }
-
-    .team-member-container .team-container .projects{
-        transform: translate(150%, -130%);
+    .mem1 {
+        transform: translate(45%,195%);
     }
-
+    .mem3 {
+        transform: translate(20%,170%);
+    }
+    .mem9 {
+        transform: translate(25%,-300%);
+    }
+    .team-member-container .team-container .developer-btn {
+        transform: translate(55%, -235%);
+    }
+    .mem2 {
+        transform: translate(50%,120%);
+    }
+    .team-member-container .team-container .manager-btn {
+        transform: translate(-100%, -970%);
+    }
+    .mem6 {
+        transform: translate(20%,-205%);
+    }
+    .mem7 {
+        transform: translate(20%,-255%);
+    }
     .team-member-container .team-container .awards {
-        transform: translate(-40%, -1000%);
+        transform: translate(40%, -470%);
     }
-
-    .team-member-container .team-container .developer-btn{
-        transform: translate(-10%, 350%);
+    .mem11 {
+        transform: translate(25%,-490%);
     }
-
-    .team-member-container .team-container .pride {
-        transform: translate(50%, 60%);
+    .mem26 {
+        transform: translate(50%,-70%);
     }
-
-    .team-member-container .team-container .manager-btn{
-        transform: translate(-140%, -320%);
+    .team-member-container .team-container .content-btn {
+        transform: translate(35%, -130%);
     }
-
-    .team-member-container .team-container .associate-btn{
-        transform: translate(20%, -800%);
+    .mem4 {
+        transform: translate(35%,735%);
     }
-
-    .mem5{
-        transform: translate(50%,-830%);
+    .mem13 {
+        transform: translate(25%,-370%);
     }
-
-    .mem1{
-        transform: translate(50%,90%);
+    .mem12 {
+        transform: translate(110%,-165%);
     }
-
-    .mem2{
-        transform: translate(50%,-100%);
+    .team-member-container .team-container .projects {
+        transform: translate(160%, 1220%);
     }
-
-    .mem4{
-        transform: translate(10%,-120%);
-    }
-
-    .mem26{
-        transform: translate(60%,-520%);
-    }
-
-    .mem3{
-        transform: translate(-30%,710%);
-    }
-
-    .mem6{
-        transform: translate(110%,-150%);
-    }
-
-    .mem7{
-        transform: translate(60%,-420%);
-    }
-
-    .mem11{
-        transform: translate(110%,-470%);
-    }
-
-    .mem14{
-        transform: translate(-10%,-820%);
-    }
-
-    .mem12{
-        transform: translate(100%,-460%);
-    }
-
-    .mem13{
-        transform: translate(100%,-460%);
-    }
-
-    .mem15{
-        transform: translate(0%,-750%);
-    }
-
-    .mem16{
-        transform: translate(100%,-540%);
-    
-
-    }
-
-
-}
-
-@media screen and (max-width: 406px){
-
-    .team-member-container .team-container .awards {
-        transform: translate(-70%, -980%);
-    }
-
-    .team-member-container .team-container .associate-btn{
-        transform: translate(0%, -1020%);
-    }
-
-    .mem14{
-        transform: translate(-10%,-870%);
-    }
-
-    .mem12{
-        transform: translate(90%,-510%);
-    }
-
-    .mem13{
-        transform: translate(100%,-440%);
-    }
-
-    .mem15{
-        transform: translate(0%,-920%);
-    }
-
-    .mem16{
-        transform: translate(70%,-540%);
-    }
-
-}
-
-@media screen and (max-width: 381px){
-
-    .team-member-container .team-container .founder-btn{
-        transform: translate(-10%, -320%);
-    }
+    .mem14 {
+        transform: translate(30%,-200%);
+  }
 
     .team-member-container .team-container .developer-btn{
         transform: translate(-10%, 350%);
@@ -1344,18 +2387,17 @@ html, body{
     .mem5{
         transform: translate(40%,-830%);
     }
-
-    .mem2{
-        transform: translate(40%,-100%);
+    .team-member-container .team-container .pride {
+        transform: translate(35%, 960%);
     }
-
-    .mem4{
-        transform: translate(-10%,-120%);
+    .mem16 {
+        transform: translate(110%, -250%);
     }
-
-    .mem9{
-        transform: translate(105%,-280%);
+    .team-member-container .team-container .associate-btn {
+        transform: translate(-25%, -270%);
     }
+    
+    
 
     .mem3{
         transform: translate(-30%,670%);
