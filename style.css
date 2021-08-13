@@ -473,25 +473,25 @@ html, body{
 }
 
 .team-member-container .team-container .left1 {
-    transform: translate(5%, -755%);
+    transform: translate(165%, -755%);
 }
 .team-member-container .team-container .left2 {
-    transform: translate(5%, -320%);
+    transform: translate(-475%, -125%);
 }
 .team-member-container .team-container .left5{
-    transform: translate(-120%, -250%);
+    transform: translate(-20%, -250%);
 }
 .team-member-container .team-container .top-left{
     transform: translate(40%, -590%);
 }
 .team-member-container .team-container .bottom5 {
-    transform: translate(80%, -225%);
+    transform: translate(80%, -185%);
 }
 .team-member-container .team-container .right1 {
-    transform: translate(-50%, -360%);
+    transform: translate(80%, -360%);
 }
 .team-member-container .team-container .mem15-lg2 {
-    transform: translate(350%, -390%);
+    transform: translate(380%, -330%);
 }
 .team-member-container .team-container .mem16-lg12 {
     transform: translate(135%, -300%);
