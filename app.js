@@ -112,6 +112,20 @@ $(document).ready(function(){
             $(".projects").toggleClass("bottom-left1");
             $(".mem6").toggleClass("bottom9");
             $(".mem14").toggleClass("top-left9");
+            $(".mem5").toggleClass("mem5-lg1");
+            $(".mem9").toggleClass("mem9-lg");
+            $(".mem7").toggleClass("mem7-lg1");
+            $(".mem26").toggleClass("mem26-lg2");
+            $(".mem11").toggleClass("mem11-lg1");
+            $(".mem12").toggleClass("mem12-lg2");
+            $(".mem15").toggleClass("mem15-lg3");
+            $(".mem16").toggleClass("mem16-lg3");
+            $(".pride").toggleClass("pride-lg1");
+            $(".developer-btn").toggleClass("dbtn-lg");
+            $(".content-btn").toggleClass("cbtn-lg2");
+            $(".awards").toggleClass("awards-lg2");
+            $(".manager-btn").toggleClass("mbtn-lg2");
+            $(".associate-btn").toggleClass("abtn-lg2");
         }
         else if($(this).hasClass("mem6")){
             $(this).toggleClass("big big9");

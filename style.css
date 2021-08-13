@@ -91,18 +91,17 @@ html, body{
     background-color: #1ea2e0;
     transform: translate(15%, -20%);
 }
+.team-member-container .team-container .founder-btn h1{
+    font-size: 32px;
+}
 .team-member-container .team-container .UX-btn h1,
+/* .team-member-container .team-container .founder-btn h1, */
 /* .team-member-container .team-container .advisor-btn h1, */
 .team-member-container .team-container .associate-btn h1{
     font-size: 68px;
     margin-bottom: -10px;
     font-weight: 700;
 }
-
-.team-member-container .team-container .founder-btn h1{
-    font-size: 30px;
-}
-
 .mem1{
     transform: translate(25%,15%);
 }
@@ -547,7 +546,7 @@ html, body{
     transform: translate(-100%, -60%);
 }
 .team-member-container .team-container .bottom7 {
-    transform: translate(10%, -280%);
+    transform: translate(-475%, -90%);
 }
 .team-member-container .team-container .left8 {
     transform: translate(200%, -335%);
@@ -556,7 +555,7 @@ html, body{
     transform: translate(30%, -100%);
 }
 .team-member-container .team-container .mem7-lg {
-    transform: translate(5%, -200%);
+    transform: translate(105%, -200%);
 }
 .team-member-container .team-container .mem26-lg {
     transform: translate(-10%, -140%);
@@ -569,22 +568,22 @@ html, body{
     transform: translate(65%, -270%);
 }
 .team-member-container .team-container .mem14-lg {
-    transform: translate(-25%, -355%);
+    transform: translate(75%, -355%);
 }
 .team-member-container .team-container .mem6-lg {
-    transform: translate(500%, -250%);
+    transform: translate(50%, -115%);
 }
 .team-member-container .team-container .awards-lg {
-    transform: translate(60%, -390%);
+    transform: translate(150%, -390%);
 }
 .team-member-container .team-container .cbtn-lg {
     transform: translate(0%, -290%);
 }
 .team-member-container .team-container .mem15-lg {
-    transform: translate(355%, -410%);
+    transform: translate(355%, -385%);
 }
 .team-member-container .team-container .mem16-lg {
-    transform: translate(135%, -305%);
+    transform: translate(30%, -295%);
 }
 .team-member-container .team-container .mem13-lg {
     transform: translate(85%, -225%);
@@ -699,10 +698,52 @@ html, body{
     transform: translate(110%, -45%);
 }
 .team-member-container .team-container .bottom9 {
-    transform: translate(460%, -205%);
+    transform: translate(20%, -90%);
 }
 .team-member-container .team-container .top-left9 {
-    transform: translate(370%, -455%);
+    transform: translate(150%, -315%);
+}
+.team-member-container .team-container .mem5-lg1 {
+    transform: translate(-10%, -110%);
+}
+.team-member-container .team-container .mem9-lg {
+    transform: translate(-90%, -95%);
+}
+.team-member-container .team-container .mem7-lg1 {
+    transform: translate(90%, -190%);
+}
+.team-member-container .team-container .mem26-lg2 {
+    transform: translate(50%, -150%);
+}
+.team-member-container .team-container .mem11-lg1 {
+    transform: translate(-430%, -150%);
+}
+.team-member-container .team-container .mem12-lg2 {
+    transform: translate(0%, -230%);
+}
+.team-member-container .team-container .mem15-lg3 {
+    transform: translate(380%, -310%);
+}
+.team-member-container .team-container .mem16-lg3 {
+    transform: translate(50%, -245%);
+}
+.team-member-container .team-container .pride-lg1 {
+    transform: translate(10%, -210%);
+}
+.team-member-container .team-container .dbtn-lg {
+    transform: translate(150%, -330%);
+}
+.team-member-container .team-container .cbtn-lg2 {
+    transform: translate(115%, -375%);
+}
+.team-member-container .team-container .awards-lg2 {
+    transform: translate(10%, -200%);
+}
+.team-member-container .team-container .mbtn-lg2 {
+    transform: translate(185%, -730%);
+}
+.team-member-container .team-container .abtn-lg2 {
+    transform: translate(130%, -690%);
 }
 
 .team-member-container .team-container .big9 {
@@ -850,10 +891,6 @@ html, body{
     background-color: #8165a6;
     transform: translate(-80%, -675%);
 }
-
-
-
-
 .our-team{
     overflow: hidden;
     border-radius: 50%;
@@ -1282,6 +1319,48 @@ html, body{
     .team-member-container .team-container .top-left9 {
         transform: translate(370%, -455%);
     }
+    .team-member-container .team-container .mem5-lg1 {
+        transform: translate(0%, -100%);
+    }
+    .team-member-container .team-container .mem9-lg {
+        transform: translate(-100%, -80%);
+    }
+    .team-member-container .team-container .mem7-lg1 {
+        transform: translate(-25%, -190%);
+    }
+    .team-member-container .team-container .mem26-lg2 {
+        transform: translate(-55%, -140%);
+    }
+    .team-member-container .team-container .mem11-lg1 {
+        transform: translate(-100%, -310%);
+    }
+    .team-member-container .team-container .mem12-lg2 {
+        transform: translate(-215%, -210%);
+    }
+    .team-member-container .team-container .mem15-lg3 {
+        transform: translate(90%, -340%);
+    }
+    .team-member-container .team-container .mem16-lg3 {
+        transform: translate(295%, -380%);
+    }
+    .team-member-container .team-container .pride-lg1 {
+        transform: translate(0%, -235%);
+    }
+    .team-member-container .team-container .dbtn-lg {
+        transform: translate(160%, -310%);
+    }
+    .team-member-container .team-container .cbtn-lg2 {
+        transform: translate(-90%, -295%);
+    }
+    .team-member-container .team-container .awards-lg2 {
+        transform: translate(545%, -530%);
+    }
+    .team-member-container .team-container .mbtn-lg2 {
+        transform: translate(-175%, -655%);
+    }
+    .team-member-container .team-container .abtn-lg2 {
+        transform: translate(-260%, -550%);
+    }
     
     .team-member-container .team-container .big9 {
         transform: translate(330%, -235%);
@@ -1478,10 +1557,7 @@ html, body{
     .team-member-container .team-container .abtn-lg {
         transform: translate(-260%, -550%);
     }
-
-
 }
-
 
 
 /* @media screen and (max-width: 1421.6px){
@@ -1621,7 +1697,7 @@ html, body{
 @media screen and (max-width: 1321.6px) {
     
 } */
-@media screen and (max-width: 1200.6px) {
+/* @media screen and (max-width: 1200.6px) {
     .team-member-container .team-container .advisor-btn {
         transform: translate(-50%, 45%);
     }
@@ -1700,9 +1776,9 @@ html, body{
     .team-member-container .team-container .associate-btn {
         transform: translate(80%, -530%);
     }
-}
+} */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1040.6px){
     .team-member-container .team-container{
         flex-wrap: wrap;
         padding: 0;
@@ -1726,31 +1802,31 @@ html, body{
     }
 
     .team-member-container .team-container .pride{
-        transform: translate(80%, -50%);
+        transform: translate(80%, -320%);
     }
 
     .team-member-container .team-container .projects{
-        transform: translate(180%, -80%);
+        transform: translate(405%, -330%);
     }
 
     .team-member-container .team-container .awards{
-        transform: translate(-10%, -550%);
+        transform: translate(135%, -575%);
     }
 
     .team-member-container .team-container .manager-btn{
-        transform: translate(-200%, -400%);
+        transform: translate(50%, -760%);
     }
 
     .team-member-container .team-container .content-btn{
-        transform: translate(-380%, -250%);
+        transform: translate(-305%, -200%);
     }
 
     .team-member-container .team-container .associate-btn{
-        transform: translate(80%, -490%);
+        transform: translate(200%, -875%);
     }
 
     .team-member-container .team-container .developer-btn{
-        transform: translate(-280%, 460%);
+        transform: translate(-260%, -90%);
     }
 
     .mem5{
@@ -1758,11 +1834,11 @@ html, body{
     }
 
     .mem1{
-        transform: translate(55%,50%);
+        transform: translate(60%,35%);
     }
 
     .mem2{
-        transform: translate(60%, -1%);
+        transform: translate(-90%, 0%);
     }
 
     .mem3{
@@ -1770,51 +1846,51 @@ html, body{
     }
 
     .mem10{
-        transform: translate(-60%, -10%);
-    }
-
-    .mem4{
-        transform: translate(250%, 110%);
-    }
-
-    .mem9{
         transform: translate(-50%, -50%);
     }
 
+    .mem4{
+        transform: translate(190%, -100%);
+    }
+
+    .mem9{
+        transform: translate(-275%, -125%);
+    }
+
     .mem6{
-        transform: translate(100%, -80%);
+        transform: translate(70%, -115%);
     }
 
     .mem7{
-        transform: translate(-50%, -80%);
+        transform: translate(-10%, -200%);
     }
 
     .mem26{
-        transform: translate(-50%, -210%);
+        transform: translate(-30%, -240%);
     }
 
     .mem14{
-        transform: translate(50%, -420%);
+        transform: translate(200%, -470%);
     }
 
     .mem15{
-        transform: translate(370%, -370%);
+        transform: translate(130%, -495%);
     }
 
     .mem12{
-        transform: translate(0%, -225%);
+        transform: translate(-260%, -305%);
     }
 
     .mem11{
-        transform: translate(-50%, -180%);
+        transform: translate(120%, -380%);
     }
 
     .mem16{
-        transform: translate(0%, -210%);
+        transform: translate(-100%, -310%);
     }
 
     .mem13{
-        transform: translate(120%, -180%);
+        transform: translate(290%, -390%);
     }
 
 
