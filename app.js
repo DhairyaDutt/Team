@@ -230,7 +230,7 @@ $(document).ready(function(){
     });
 
     $(".developer-btn").click(()=>{
-        $(".mem:not(.mem14,.mem16)").toggleClass("opaque");
+        $(".mem:not(.mem14,.mem16,.mem11,.mem15)").toggleClass("opaque");
         $(".bttn:not(.developer-btn)").toggleClass("opaque");
     });
 
@@ -247,11 +247,6 @@ $(document).ready(function(){
     $(".content-btn").click(()=>{
         $(".mem:not(.mem12)").toggleClass("opaque");
         $(".bttn:not(.content-btn)").toggleClass("opaque");
-    });
-
-    $(".associate-btn").click(()=>{
-        $(".mem:not(.mem11,.mem15)").toggleClass("opaque");
-        $(".bttn:not(associate-btn)").toggleClass("opaque");
     });
 
     
