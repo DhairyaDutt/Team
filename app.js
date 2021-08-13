@@ -174,4 +174,48 @@ $(document).ready(function(){
         //     $(".bigmem").not(this).removeClass("big big1 big2 big3 biggest big4 big5 big6 big7 big8 big9 big10 big11 big12 big13 big14");
         // }
     });
+
+    $(".founder-btn").click(()=>{
+        $(".mem:not(.mem5)").toggleClass("opaque");
+        $(".bttn:not(.founder-btn)").toggleClass("opaque");
+    });
+
+    $(".advisor-btn").click(()=>{
+        $(".mem:not(.mem5,.mem26,.mem2)").toggleClass("opaque");
+        $(".bttn:not(.advisor-btn)").toggleClass("opaque");
+    });
+
+    $(".projects").click(()=>{
+        $(".mem:not(.mem3,.mem6,.mem7)").toggleClass("opaque");
+        $(".bttn:not(.projects)").toggleClass("opaque");
+    });
+
+    $(".developer-btn").click(()=>{
+        $(".mem:not(.mem14,.mem16)").toggleClass("opaque");
+        $(".bttn:not(.developer-btn)").toggleClass("opaque");
+    });
+
+    $(".pride").click(()=>{
+        $(".mem:not(.mem10,.mem1,.mem9)").toggleClass("opaque");
+        $(".bttn:not(.pride)").toggleClass("opaque");
+    });
+
+    $(".manager-btn").click(()=>{
+        $(".mem:not(.mem12,.mem13)").toggleClass("opaque");
+        $(".bttn:not(.manager-btn)").toggleClass("opaque");
+    });
+
+    $(".content-btn").click(()=>{
+        $(".mem:not(.mem12)").toggleClass("opaque");
+        $(".bttn:not(.content-btn)").toggleClass("opaque");
+    });
+
+    $(".associate-btn").click(()=>{
+        $(".mem:not(.mem11,.mem15)").toggleClass("opaque");
+        $(".bttn:not(associate-btn)").toggleClass("opaque");
+    });
+
+    
+    
 });
+
