@@ -28,8 +28,8 @@ $(document).ready(function(){
             $(".mem13").toggleClass("bottom5");
             $(".associate-btn").toggleClass("top-left");
             $(".bigmem").not(this).removeClass("big big1 big2 big3 biggest");
-            // $(".mem2").removeClass("big big2");
-            // $(".mem1").removeClass("big big1");
+            $(".mem15").toggleClass("mem15-lg");
+            $(".mem16").toggleClass("mem16-lg");
         }
         else if($(this).hasClass("mem5")){
             $(this).toggleClass("biggest");
@@ -52,6 +52,18 @@ $(document).ready(function(){
             $(".mem9").toggleClass("bottom6");
             $(".mem11").toggleClass("bottom7");
             $(".developer-btn").toggleClass("left8");
+            $(".mem5").toggleClass("mem5-lg");
+            $(".mem7").toggleClass("mem7-lg");
+            $(".mem26").toggleClass("mem26-lg");
+            $(".mem14").toggleClass("mem14-lg");
+            $(".manager-btn").toggleClass("mbtn-lg");
+            $(".pride").toggleClass("pride-lg");
+            $(".mem6").toggleClass("mem6-lg");
+            $(".awards").toggleClass("awards-lg");
+            $(".content-btn").toggleClass("cbtn-lg");
+            $(".mem15").toggleClass("mem15-lg");
+            $(".mem16").toggleClass("mem16-lg");
+            $(".mem13").toggleClass("mem13-lg");
         }
         else if($(this).hasClass("mem9")){
             $(this).toggleClass("big big5");
@@ -73,6 +85,8 @@ $(document).ready(function(){
             $(".mem15").toggleClass("top-left5");
             $(".mem13").toggleClass("top-right1");
             $(".associate-btn").toggleClass("top-right2");
+            $(".mem26").toggleClass("mem26-lg1");
+            $(".content-btn").toggleClass("cbtn-lg1");
         }
         else if($(this).hasClass("mem12")){
             $(this).toggleClass("big big7");
@@ -114,6 +128,7 @@ $(document).ready(function(){
             $(".mem12").toggleClass("top15");
             $(".associate-btn").toggleClass("top-left10");
             $(".mem16").toggleClass("bottom11");
+            $(".awards").toggleClass("awards-lg1");
         }
         else if($(this).hasClass("mem14")){
             $(this).toggleClass("big big10");
@@ -123,6 +138,8 @@ $(document).ready(function(){
             $(".content-btn").toggleClass("bottom14");
             $(".pride").toggleClass("top16");
             $(".mem5").toggleClass("left22");
+            $(".mem12").toggleClass("mem12-lg1");
+            $(".mem13").toggleClass("mem13-lg2");
         }
         else if($(this).hasClass("mem16")){
             $(this).toggleClass("big big11");
@@ -145,6 +162,7 @@ $(document).ready(function(){
             $(".awards").toggleClass("left26");
             $(".mem26").toggleClass("left27");
             $(".mem13").toggleClass("left28");
+            $(".associate-btn").toggleClass("abtn-lg1");
         }
         else if($(this).hasClass("mem13")){
             $(this).toggleClass("big big13");
@@ -168,6 +186,13 @@ $(document).ready(function(){
             $(".mem14").toggleClass("bottom22");
             $(".content-btn").toggleClass("right8");
             $(".mem26").toggleClass("bottom23");
+            $(".mem11").toggleClass("mem11-lg");
+            $(".manager-btn").toggleClass("mbtn-lg1");
+            $(".mem15").toggleClass("mem15-lg1");
+            $(".mem16").toggleClass("mem16-lg1");
+            $(".mem12").toggleClass("mem12-lg");
+            $(".mem13").toggleClass("mem13-lg1");
+            $(".associate-btn").toggleClass("abtn-lg");
         }
     });
 });
