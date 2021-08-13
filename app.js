@@ -194,5 +194,9 @@ $(document).ready(function(){
             $(".mem13").toggleClass("mem13-lg1");
             $(".associate-btn").toggleClass("abtn-lg");
         }
+        // else if($(this).hasClass("mem3")){
+        //     $(this).toggleClass("big big15");
+        //     $(".bigmem").not(this).removeClass("big big1 big2 big3 biggest big4 big5 big6 big7 big8 big9 big10 big11 big12 big13 big14");
+        // }
     });
 });
