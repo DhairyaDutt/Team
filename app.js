@@ -28,7 +28,7 @@ $(document).ready(function(){
             $(".mem13").toggleClass("bottom5");
             $(".associate-btn").toggleClass("top-left");
             $(".bigmem").not(this).removeClass("big big1 big2 big3 biggest");
-            $(".mem15").toggleClass("mem15-lg");
+            $(".mem15").toggleClass("mem15-lg2");
             $(".mem16").toggleClass("mem16-lg");
         }
         else if($(this).hasClass("mem5")){
