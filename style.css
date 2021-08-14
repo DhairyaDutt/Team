@@ -2951,3 +2951,79 @@ html, body{
         transform: translate(15%,-455%);
     }
 }
+
+
+@media screen and (max-width: 320.6px) {
+    .team-member-container .team-container .founder-btn {
+        transform: translate(-60%, -125%);
+    }
+    .team-member-container .team-container .advisor-btn {
+        transform: translate(-10%, 50%);
+    }
+    .mem5 {
+        transform: translate(20%, -15%);
+    }
+    .mem10 {
+        transform: translate(185%,-100%);
+    }
+    .team-member-container .team-container .UX-btn {
+        transform: translate(35%, -251%);
+    }
+    .mem3 {
+        transform: translate(-50%,250%);
+    }
+    .team-member-container .team-container .projects {
+        transform: translate(-60%, -170%);
+    }
+    .mem2 {
+        transform: translate(35%,23%);
+    }
+    .mem7 {
+        transform: translate(30%,-375%);
+    }
+    .mem9 {
+        transform: translate(25%,-50%);
+    }
+    .mem6 {
+        transform: translate(15%,-390%);
+    }
+    .team-member-container .team-container .developer-btn {
+        transform: translate(-10%, -10%);
+    }
+    .team-member-container .team-container .pride {
+        transform: translate(-150%, -250%);
+    }
+    .mem11 {
+        transform: translate(85%,-656%);
+    }
+    .mem26 {
+        transform: translate(20%,-330%);
+    }
+    .team-member-container .team-container .manager-btn {
+        transform: translate(-30%, -1195%);
+    }
+    .mem12 {
+        transform: translate(20%,-590%);
+    }
+    .team-member-container .team-container .awards {
+        transform: translate(120%, -680%);
+    }
+    .mem15 {
+        transform: translate(10%,-930%);
+    }
+    .team-member-container .team-container .content-btn {
+        transform: translate(-130%, -255%);
+    }
+    .mem4 {
+        transform: translate(15%,620%);
+    }
+    .team-member-container .team-container .associate-btn {
+        transform: translate(-5%, -1625%);
+    }
+    .mem14 {
+        transform: translate(50%,-685%);
+    }
+    .mem13 {
+        transform: translate(-10%,-355%);
+    }
+}

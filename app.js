@@ -2654,6 +2654,11 @@ $(document).ready(function(){
         $(".bttn:not(.content-btn)").toggleClass("opaque");
     });
 
+    $(".UX-btn").click(()=>{
+        $(".mem:not(.mem17)").toggleClass("opaque");
+        $(".bttn:not(.UX-btn)").toggleClass("opaque");
+    });
+
     
     
 });
