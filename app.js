@@ -298,8 +298,20 @@ $(document).ready(function(){
 
             $(this).toggleClass("big big2");
             $(".founder-btn").toggleClass("top1");
-            $(".UX-btn").toggleClass("top2");
-            $(".mem3").toggleClass("top-right");
+            $(".UX-btn").toggleClass("top-right");
+            $(".mem3").toggleClass("top2");
+            $(".mem4").toggleClass("mem4-lg");
+            $(".mem9").toggleClass("mem9-lg1");
+            $(".developer-btn").toggleClass("dbtn-lg1");
+            $(".mem7").toggleClass("mem7-lg2");
+            $(".mem5").toggleClass("mem5-lg3");
+            $(".mem6").toggleClass("mem6-lg1");
+            $(".manager-btn").toggleClass("mbtn-lg3");
+            $(".pride").toggleClass("pride-lg2");
+            $(".mem14").toggleClass("mem14-lg1");
+            $(".mem16").toggleClass("mem16-lg4");
+            $(".mem12").toggleClass("mem12-lg3");
+            $(".mem18").toggleClass("mem18-lg6");
             $(".bigmem").not(this).removeClass("big big1 big2 big3 biggest");
             // $(".mem1").removeClass("big big1");
             // $(".mem26").removeClass("big big3");
@@ -453,6 +465,7 @@ $(document).ready(function(){
             $(".bigmem").not(this).removeClass("big big1 big2 big3 biggest");
             $(".mem15").toggleClass("mem15-lg2");
             $(".mem16").toggleClass("mem16-lg");
+            $(".mem17").toggleClass("mem17-lg1");
         }
         else if($(this).hasClass("mem5")){
             // Removing classes
@@ -1053,6 +1066,9 @@ $(document).ready(function(){
             $(".associate-btn").toggleClass("top-right2");
             $(".mem26").toggleClass("mem26-lg1");
             $(".content-btn").toggleClass("cbtn-lg1");
+            $(".created-content").toggleClass("cc-lg1");
+            $(".mem17").toggleClass("mem17-lg");
+            $(".mem18").toggleClass("mem18-lg1");
         }
         else if($(this).hasClass("mem12")){
             // Removing classes
@@ -1203,6 +1219,9 @@ $(document).ready(function(){
             $(".content-btn").toggleClass("top9");
             $(".mem13").toggleClass("top-right3");
             $(".associate-btn").toggleClass("top-right4");
+            $(".created-content").toggleClass("cc-lg2");
+            $(".mem17").toggleClass("mem17-lg2");
+            $(".mem18").toggleClass("mem18-lg2");
         }
         else if($(this).hasClass("mem4")){
             // Removing classes
@@ -1803,6 +1822,9 @@ $(document).ready(function(){
             $(".mem12").toggleClass("top-left11");
             $(".associate-btn").toggleClass("top18");
             $(".manager-btn").toggleClass("left24");
+            $(".created-content").toggleClass("cc-lg5");
+            $(".mem17").toggleClass("mem17-lg6");
+            $(".mem18").toggleClass("mem18-lg5");
         }
         else if($(this).hasClass("mem15")){
             // removing classes
@@ -1953,6 +1975,9 @@ $(document).ready(function(){
             $(".mem26").toggleClass("left27");
             $(".mem13").toggleClass("left28");
             $(".associate-btn").toggleClass("abtn-lg1");
+            $(".created-content").toggleClass("cc-lg4");
+            $(".mem17").toggleClass("mem17-lg5");
+            $(".mem18").toggleClass("mem18-lg4");
         }
         else if($(this).hasClass("mem13")){
             // removing classes
@@ -2103,6 +2128,9 @@ $(document).ready(function(){
             $(".manager-btn").toggleClass("top21");
             $(".mem12").toggleClass("top22");
             $(".associate-btn").toggleClass("top-left12");
+            $(".created-content").toggleClass("cc-lg3");
+            $(".mem17").toggleClass("mem17-lg3");
+            $(".mem18").toggleClass("mem18-lg3");
         }
         else if($(this).hasClass("mem7")){
             // removing classes
@@ -2253,11 +2281,342 @@ $(document).ready(function(){
             $(".mem12").toggleClass("mem12-lg");
             $(".mem13").toggleClass("mem13-lg1");
             $(".associate-btn").toggleClass("abtn-lg");
+            $(".created-content").toggleClass("cc-lg");
+            $(".mem18").toggleClass("mem18-lg");
         }
-        // else if($(this).hasClass("mem3")){
-        //     $(this).toggleClass("big big15");
-        //     $(".bigmem").not(this).removeClass("big big1 big2 big3 biggest big4 big5 big6 big7 big8 big9 big10 big11 big12 big13 big14");
-        // }
+        if($(this).hasClass("mem17")){
+            // Removing classes
+            $(".advisor-btn").removeClass("left");
+            $(".founder-btn").removeClass("top1");
+            $(".UX-btn").removeClass("top2");
+            $(".mem3").removeClass("top-right");
+            $(".mem6").removeClass("bottom1");
+            $(".mem14").removeClass("right1");
+            $(".mem7").removeClass("bottom2");
+            $(".manager-btn").removeClass("left1");
+            $(".mem11").removeClass("left2");
+            $(".mem5").removeClass("top3");
+            $(".mem12").removeClass("left5");
+            $(".mem13").removeClass("bottom5");
+            $(".associate-btn").removeClass("top-left");
+            $(".mem15").removeClass("mem15-lg2");
+            $(".mem16").removeClass("mem16-lg");
+            $(".mem26").removeClass("bottom3");
+            $(".pride").removeClass("right2");
+            $(".mem2").removeClass("top4");
+            $(".mem7").removeClass("left3");
+            $(".mem9").removeClass("left4");
+            $(".mem6").removeClass("right3");
+            $(".mem13").removeClass("bottom4");
+            $(".advisor-btn").removeClass("top-left1");
+            $(".mem2").removeClass("left6");
+            $(".projects").removeClass("left7");
+            $(".mem4").removeClass("top-left2");
+            $(".mem9").removeClass("bottom6");
+            $(".mem11").removeClass("bottom7");
+            $(".developer-btn").removeClass("left8");
+            $(".mem5").removeClass("mem5-lg");
+            $(".mem7").removeClass("mem7-lg");
+            $(".mem26").removeClass("mem26-lg");
+            $(".mem14").removeClass("mem14-lg");
+            $(".manager-btn").removeClass("mbtn-lg");
+            $(".pride").removeClass("pride-lg");
+            $(".mem6").removeClass("mem6-lg");
+            $(".awards").removeClass("awards-lg");
+            $(".content-btn").removeClass("cbtn-lg");
+            $(".mem15").removeClass("mem15-lg");
+            $(".mem16").removeClass("mem16-lg");
+            $(".mem13").removeClass("mem13-lg");
+            $(".mem10").removeClass("top5");
+            $(".mem11").removeClass("top6");
+            $(".mem5").removeClass("left9");
+            $(".pride").removeClass("left10");
+            $(".mem9").removeClass("top7");
+            $(".mem10").removeClass("top8");
+            $(".mem12").removeClass("bottom-left");
+            $(".manager-btn").removeClass("left11");
+            $(".mem14").removeClass("top-left3");
+            $(".mem16").removeClass("top-left4");
+            $(".mem15").removeClass("top-left5");
+            $(".mem13").removeClass("top-right1");
+            $(".associate-btn").removeClass("top-right2");
+            $(".mem26").removeClass("mem26-lg1");
+            $(".content-btn").removeClass("cbtn-lg1");
+            $(".mem11").removeClass("bottom8");
+            $(".manager-btn").removeClass("left12");
+            $(".mem14").removeClass("left13");
+            $(".mem16").removeClass("top-left6");
+            $(".mem15").removeClass("top-left7");
+            $(".content-btn").removeClass("top9");
+            $(".mem13").removeClass("top-right3");
+            $(".associate-btn").removeClass("top-right4");
+            $(".advisor-btn").removeClass("left14");
+            $(".mem1").removeClass("left15");
+            $(".founder-btn").removeClass("left16");
+            $(".UX-btn").removeClass("left17");
+            $(".mem3").removeClass("top-left8");
+            $(".mem2").removeClass("left18");
+            $(".projects").removeClass("bottom-left1");
+            $(".mem6").removeClass("bottom9");
+            $(".mem14").removeClass("top-left9");
+            $(".mem5").removeClass("mem5-lg1");
+            $(".mem9").removeClass("mem9-lg");
+            $(".mem7").removeClass("mem7-lg1");
+            $(".mem26").removeClass("mem26-lg2");
+            $(".mem11").removeClass("mem11-lg1");
+            $(".mem12").removeClass("mem12-lg2");
+            $(".mem15").removeClass("mem15-lg3");
+            $(".mem16").removeClass("mem16-lg3");
+            $(".pride").removeClass("pride-lg1");
+            $(".developer-btn").removeClass("dbtn-lg");
+            $(".content-btn").removeClass("cbtn-lg2");
+            $(".awards").removeClass("awards-lg2");
+            $(".manager-btn").removeClass("mbtn-lg2");
+            $(".associate-btn").removeClass("abtn-lg2");
+            $(".projects").removeClass("top10");
+            $(".pride").removeClass("left21");
+            $(".mem5").removeClass("top11");
+            $(".mem7").removeClass("top12");
+            $(".mem9").removeClass("left19");
+            $(".mem14").removeClass("left20");
+            $(".content-btn").removeClass("top13");
+            $(".mem26").removeClass("bottom10");
+            $(".manager-btn").removeClass("top14");
+            $(".mem12").removeClass("top15");
+            $(".associate-btn").removeClass("top-left10");
+            $(".mem16").removeClass("bottom11");
+            $(".awards").removeClass("awards-lg1");
+            $(".mem16").removeClass("bottom12");
+            $(".mem15").removeClass("bottom13");
+            $(".content-btn").removeClass("bottom14");
+            $(".pride").removeClass("top16");
+            $(".mem5").removeClass("left22");
+            $(".mem12").removeClass("mem12-lg1");
+            $(".mem13").removeClass("mem13-lg2");
+            $(".mem14").removeClass("bottom15");
+            $(".awards").removeClass("top17");
+            $(".mem15").removeClass("bottom16");
+            $(".mem26").removeClass("left23");
+            $(".mem13").removeClass("bottom17");
+            $(".mem12").removeClass("top-left11");
+            $(".associate-btn").removeClass("top18");
+            $(".manager-btn").removeClass("left24");
+            $(".mem14").removeClass("bottom18");
+            $(".mem16").removeClass("bottom19");
+            $(".content-btn").removeClass("left25");
+            $(".awards").removeClass("left26");
+            $(".mem26").removeClass("left27");
+            $(".mem13").removeClass("left28");
+            $(".associate-btn").removeClass("abtn-lg1");
+            $(".mem26").removeClass("top19");
+            $(".mem14").removeClass("bottom20");
+            $(".content-btn").removeClass("top20");
+            $(".mem15").removeClass("right4");
+            $(".mem16").removeClass("right5");
+            $(".manager-btn").removeClass("top21");
+            $(".mem12").removeClass("top22");
+            $(".associate-btn").removeClass("top-left12");
+            $(".mem9").removeClass("left29");
+            $(".mem5").removeClass("right6");
+            $(".pride").removeClass("right7");
+            $(".mem6").removeClass("bottom21");
+            $(".mem14").removeClass("bottom22");
+            $(".content-btn").removeClass("right8");
+            $(".mem26").removeClass("bottom23");
+            $(".mem11").removeClass("mem11-lg");
+            $(".manager-btn").removeClass("mbtn-lg1");
+            $(".mem15").removeClass("mem15-lg1");
+            $(".mem16").removeClass("mem16-lg1");
+            $(".mem12").removeClass("mem12-lg");
+            $(".mem13").removeClass("mem13-lg1");
+            $(".associate-btn").removeClass("abtn-lg");
+
+            $(this).toggleClass("big big15");
+            $(".bigmem").not(this).removeClass("big big1 big2 bi3 biggest big4 big5 big6 big7 big8 big9 big10 big11 big12 big13 big14");
+            $(".mem11").toggleClass("top23");
+            $(".mem26").toggleClass("top25");
+            $(".manager-btn").toggleClass("top24");
+            $(".mem15").toggleClass("top-left13");
+            $(".mem16").toggleClass("top26");
+            $(".mem12").toggleClass("top27");
+            $(".mem13").toggleClass("top28");
+            $(".created-content").toggleClass("bottom24");
+            $(".mem18").toggleClass("bottom25");
+        }
+        else if($(this).hasClass("mem18")){
+            // Removing classes
+            $(".advisor-btn").removeClass("left");
+            $(".founder-btn").removeClass("top1");
+            $(".UX-btn").removeClass("top2");
+            $(".mem3").removeClass("top-right");
+            $(".mem6").removeClass("bottom1");
+            $(".mem14").removeClass("right1");
+            $(".mem7").removeClass("bottom2");
+            $(".manager-btn").removeClass("left1");
+            $(".mem11").removeClass("left2");
+            $(".mem5").removeClass("top3");
+            $(".mem12").removeClass("left5");
+            $(".mem13").removeClass("bottom5");
+            $(".associate-btn").removeClass("top-left");
+            $(".mem15").removeClass("mem15-lg2");
+            $(".mem16").removeClass("mem16-lg");
+            $(".mem26").removeClass("bottom3");
+            $(".pride").removeClass("right2");
+            $(".mem2").removeClass("top4");
+            $(".mem7").removeClass("left3");
+            $(".mem9").removeClass("left4");
+            $(".mem6").removeClass("right3");
+            $(".mem13").removeClass("bottom4");
+            $(".advisor-btn").removeClass("top-left1");
+            $(".mem2").removeClass("left6");
+            $(".projects").removeClass("left7");
+            $(".mem4").removeClass("top-left2");
+            $(".mem9").removeClass("bottom6");
+            $(".mem11").removeClass("bottom7");
+            $(".developer-btn").removeClass("left8");
+            $(".mem5").removeClass("mem5-lg");
+            $(".mem7").removeClass("mem7-lg");
+            $(".mem26").removeClass("mem26-lg");
+            $(".mem14").removeClass("mem14-lg");
+            $(".manager-btn").removeClass("mbtn-lg");
+            $(".pride").removeClass("pride-lg");
+            $(".mem6").removeClass("mem6-lg");
+            $(".awards").removeClass("awards-lg");
+            $(".content-btn").removeClass("cbtn-lg");
+            $(".mem15").removeClass("mem15-lg");
+            $(".mem16").removeClass("mem16-lg");
+            $(".mem13").removeClass("mem13-lg");
+            $(".mem10").removeClass("top5");
+            $(".mem11").removeClass("top6");
+            $(".mem5").removeClass("left9");
+            $(".pride").removeClass("left10");
+            $(".mem9").removeClass("top7");
+            $(".mem10").removeClass("top8");
+            $(".mem12").removeClass("bottom-left");
+            $(".manager-btn").removeClass("left11");
+            $(".mem14").removeClass("top-left3");
+            $(".mem16").removeClass("top-left4");
+            $(".mem15").removeClass("top-left5");
+            $(".mem13").removeClass("top-right1");
+            $(".associate-btn").removeClass("top-right2");
+            $(".mem26").removeClass("mem26-lg1");
+            $(".content-btn").removeClass("cbtn-lg1");
+            $(".mem11").removeClass("bottom8");
+            $(".manager-btn").removeClass("left12");
+            $(".mem14").removeClass("left13");
+            $(".mem16").removeClass("top-left6");
+            $(".mem15").removeClass("top-left7");
+            $(".content-btn").removeClass("top9");
+            $(".mem13").removeClass("top-right3");
+            $(".associate-btn").removeClass("top-right4");
+            $(".advisor-btn").removeClass("left14");
+            $(".mem1").removeClass("left15");
+            $(".founder-btn").removeClass("left16");
+            $(".UX-btn").removeClass("left17");
+            $(".mem3").removeClass("top-left8");
+            $(".mem2").removeClass("left18");
+            $(".projects").removeClass("bottom-left1");
+            $(".mem6").removeClass("bottom9");
+            $(".mem14").removeClass("top-left9");
+            $(".mem5").removeClass("mem5-lg1");
+            $(".mem9").removeClass("mem9-lg");
+            $(".mem7").removeClass("mem7-lg1");
+            $(".mem26").removeClass("mem26-lg2");
+            $(".mem11").removeClass("mem11-lg1");
+            $(".mem12").removeClass("mem12-lg2");
+            $(".mem15").removeClass("mem15-lg3");
+            $(".mem16").removeClass("mem16-lg3");
+            $(".pride").removeClass("pride-lg1");
+            $(".developer-btn").removeClass("dbtn-lg");
+            $(".content-btn").removeClass("cbtn-lg2");
+            $(".awards").removeClass("awards-lg2");
+            $(".manager-btn").removeClass("mbtn-lg2");
+            $(".associate-btn").removeClass("abtn-lg2");
+            $(".projects").removeClass("top10");
+            $(".pride").removeClass("left21");
+            $(".mem5").removeClass("top11");
+            $(".mem7").removeClass("top12");
+            $(".mem9").removeClass("left19");
+            $(".mem14").removeClass("left20");
+            $(".content-btn").removeClass("top13");
+            $(".mem26").removeClass("bottom10");
+            $(".manager-btn").removeClass("top14");
+            $(".mem12").removeClass("top15");
+            $(".associate-btn").removeClass("top-left10");
+            $(".mem16").removeClass("bottom11");
+            $(".awards").removeClass("awards-lg1");
+            $(".mem16").removeClass("bottom12");
+            $(".mem15").removeClass("bottom13");
+            $(".content-btn").removeClass("bottom14");
+            $(".pride").removeClass("top16");
+            $(".mem5").removeClass("left22");
+            $(".mem12").removeClass("mem12-lg1");
+            $(".mem13").removeClass("mem13-lg2");
+            $(".mem14").removeClass("bottom15");
+            $(".awards").removeClass("top17");
+            $(".mem15").removeClass("bottom16");
+            $(".mem26").removeClass("left23");
+            $(".mem13").removeClass("bottom17");
+            $(".mem12").removeClass("top-left11");
+            $(".associate-btn").removeClass("top18");
+            $(".manager-btn").removeClass("left24");
+            $(".mem14").removeClass("bottom18");
+            $(".mem16").removeClass("bottom19");
+            $(".content-btn").removeClass("left25");
+            $(".awards").removeClass("left26");
+            $(".mem26").removeClass("left27");
+            $(".mem13").removeClass("left28");
+            $(".associate-btn").removeClass("abtn-lg1");
+            $(".mem26").removeClass("top19");
+            $(".mem14").removeClass("bottom20");
+            $(".content-btn").removeClass("top20");
+            $(".mem15").removeClass("right4");
+            $(".mem16").removeClass("right5");
+            $(".manager-btn").removeClass("top21");
+            $(".mem12").removeClass("top22");
+            $(".associate-btn").removeClass("top-left12");
+            $(".mem9").removeClass("left29");
+            $(".mem5").removeClass("right6");
+            $(".pride").removeClass("right7");
+            $(".mem6").removeClass("bottom21");
+            $(".mem14").removeClass("bottom22");
+            $(".content-btn").removeClass("right8");
+            $(".mem26").removeClass("bottom23");
+            $(".mem11").removeClass("mem11-lg");
+            $(".manager-btn").removeClass("mbtn-lg1");
+            $(".mem15").removeClass("mem15-lg1");
+            $(".mem16").removeClass("mem16-lg1");
+            $(".mem12").removeClass("mem12-lg");
+            $(".mem13").removeClass("mem13-lg1");
+            $(".associate-btn").removeClass("abtn-lg");
+            $(".mem11").removeClass("top23");
+            $(".mem26").removeClass("top25");
+            $(".manager-btn").removeClass("top24");
+            $(".mem15").removeClass("top-left13");
+            $(".mem16").removeClass("top26");
+            $(".mem12").removeClass("top27");
+            $(".mem13").removeClass("top28");
+            $(".created-content").removeClass("bottom24");
+            $(".mem18").removeClass("bottom25");
+            
+            $(this).toggleClass("big big16");
+            $(".bigmem").not(this).removeClass("big big1 big2 bi3 biggest big4 big5 big6 big7 big8 big9 big10 big11 big12 big13 big14 big15");
+            $(".mem26").toggleClass("top29");
+            $(".manager-btn").toggleClass("top30");
+            $(".mem15").toggleClass("top-left14");
+            $(".mem16").toggleClass("top31");
+            $(".mem13").toggleClass("top32");
+            $(".mem17").toggleClass("mem17-lg4");
+        }
+        else if($(this).hasClass("mem3")){
+            $(this).toggleClass("big big17");
+            $(".bigmem").not(this).removeClass("big big1 big2 big3 biggest big4 big5 big6 big7 big8 big9 big10 big11 big12 big13 big14 big15 big16");
+            $(".founder-btn").toggleClass("fbtn-lg");
+            $(".mem2").toggleClass("mem2-lg");
+            $(".mem1").toggleClass("mem1-lg");
+            $(".advisor-btn").toggleClass("advisor-btn-lg");
+            $(".mem5").toggleClass("mem5-lg");
+        }
     });
 
     $(".founder-btn").click(()=>{
