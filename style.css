@@ -77,6 +77,9 @@ html, body{
     border-radius: 50%;
     transition: all 1s ease-in-out;
 }
+
+
+
 .team-member-container .team-container .advisor-btn{
     background-color: #8165a6;
     transform: translate(50%, 40%);
@@ -954,6 +957,11 @@ html, body{
     transition: all 0.3s ease-in-out 0s;
 }
 
+.team-member-container .team-container .content-btn{
+    background-color: grey;
+}
+
+
 @media screen and (max-width: 1450.6px){
     .mem4{
         transform: translate(160%, -80%);
@@ -1563,6 +1571,10 @@ html, body{
 .team-member-container .team-container .bttn{
     cursor: pointer;
 }
+
+/* .team-member-container .team-container .bttn:hover{
+    transform: scale(1.1);
+} */
 
 .team-member-container .team-container .associate-btn{
     cursor: auto;
