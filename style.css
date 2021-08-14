@@ -109,7 +109,8 @@ html, body{
     transform: translate(25%,15%);
 }
 .team-member-container .team-container .UX-btn{
-    transform: translate(30%, -30%);
+    /* transform: translate(30%, -30%); */
+    transform: translate(25%, -10%);
     background-color: #8165a6;
 }
 
@@ -120,7 +121,7 @@ html, body{
 
 .team-member-container .team-container .projects{
     background-color: #1ea2e0;
-    transform: translate(260%, -135%);
+    transform: translate(240%, -135%);
 }
 
 .team-member-container .team-container .content-btn{
@@ -162,13 +163,27 @@ html, body{
 .team-member-container .team-container .mem14 .image img,
 .team-member-container .team-container .mem15 .image img,
 .team-member-container .team-container .mem16 .image img,
+.team-member-container .team-container .mem17 .image img,
 .team-member-container .team-container .mem18 .image img,
-.team-member-container .team-container .mem19 .image img,
 .team-member-container .team-container .awards,
-/* .team-member-container .team-container .projects, */
 .team-member-container .team-container .pride{
     height: 180px;
     width: 180px;
+}
+.team-member-container .team-container .created-content{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #324dc7;
+    transition: all 1s ease-in-out;
+    transform: translate(-460%, -660%);
+}
+.team-member-container .team-container .created-content p{
+    margin-bottom: -7px;
+}
+.team-member-container .team-container .created-content h1{
+    font-size: 44px;
 }
 .team-member-container .team-container .awards,
 .team-member-container .team-container .pride{
@@ -176,7 +191,7 @@ html, body{
     color: #fff;
     background-color: #c5397a;
     /* transform: translate(0, -26%); */
-    transform: translate(170%, -350%);
+    transform: translate(180%, -350%);
     transition: all 1s ease-in-out;
 }
 .team-member-container .team-container .pride{
@@ -221,13 +236,14 @@ html, body{
 .team-member-container .team-container .mem14 .image .overlay-fade,
 .team-member-container .team-container .mem15 .image .overlay-fade,
 .team-member-container .team-container .mem16 .image .overlay-fade,
-.team-member-container .team-container .mem18 .image .overlay-fade,
-.team-member-container .team-container .mem19 .image .overlay-fade{
+.team-member-container .team-container .mem17 .image .overlay-fade,
+.team-member-container .team-container .mem18 .image .overlay-fade{
     height: 180px;
     width: 180px;
 }
 .mem3{
-    transform: translate(25%, -10%);
+    /* transform: translate(25%, -10%); */
+    transform: translate(30%, -30%);
 }
 .mem4{
     /* transform: translate(0%, -60%); */
@@ -243,14 +259,14 @@ html, body{
     transform: translate(110%, -190%);
 }
 .mem9{
-    transform: translate(-30%, -80%);
+    transform: translate(-40%, -80%);
 }
 .mem10{
     /* transform: translate(125%, -190%); */
     transform: translate(0, -40%);
 }
 .mem11{
-    transform: translate(-450%, -135%);
+    transform: translate(-485%, -135%);
 }
 .mem12{
     transform: translate(0%, -230%);
@@ -262,22 +278,16 @@ html, body{
     transform: translate(80%, -350%);
 }
 .mem15{
-    transform: translate(365%, -330%);
+    transform: translate(385%, -330%);
 }
 .mem16{
     transform: translate(35%, -265%);
 }
-.mem17{
-    transform: translate(20%, -185%);
+.mem17 {
+    transform: translate(-100%, -270%);
 }
-.mem18{
-    transform: translate(20%, -205%);
-}
-.mem19{
-    transform: translate(100%, -270%);
-}
-.mem20{
-    transform: translate(170%, -270%);
+.mem18 {
+    transform: translate(20%, -280%);
 }
 .mem26{
     transform: translate(50%, -130%);
@@ -466,7 +476,7 @@ html, body{
     transform: translate(20%, -30%);
 }
 .team-member-container .team-container .top2{
-    transform: translate(35%, -45%);
+    transform: translate(35%, -25%);
 }
 .team-member-container .team-container .top-right {
     transform: translate(30%, -15%);
@@ -476,7 +486,7 @@ html, body{
     transform: translate(165%, -755%);
 }
 .team-member-container .team-container .left2 {
-    transform: translate(-475%, -125%);
+    transform: translate(-515%, -125%);
 }
 .team-member-container .team-container .left5{
     transform: translate(-20%, -250%);
@@ -495,6 +505,9 @@ html, body{
 }
 .team-member-container .team-container .mem16-lg12 {
     transform: translate(135%, -300%);
+}
+.team-member-container .team-container .mem17-lg1{
+    transform: translate(-120%, -270%);
 }
 
 .team-member-container .team-container .biggest{
@@ -540,13 +553,13 @@ html, body{
     transform: translate(155%, -100%);
 }
 .team-member-container .team-container .top-left2{
-    transform: translate(100%, -70%);
+    transform: translate(120%, -70%);
 }
 .team-member-container .team-container .bottom6 {
     transform: translate(-100%, -60%);
 }
 .team-member-container .team-container .bottom7 {
-    transform: translate(-475%, -90%);
+    transform: translate(-475%, -120%);
 }
 .team-member-container .team-container .left8 {
     transform: translate(200%, -335%);
@@ -558,35 +571,35 @@ html, body{
     transform: translate(105%, -200%);
 }
 .team-member-container .team-container .mem26-lg {
-    transform: translate(-10%, -140%);
+    transform: translate(80%, -140%);
 }
 .team-member-container .team-container .mbtn-lg {
-    transform: translate(40%, -740%);
+    transform: translate(200%, -740%);
 }
 .team-member-container .team-container .pride-lg {
     background-color: #070707;
     transform: translate(65%, -270%);
 }
 .team-member-container .team-container .mem14-lg {
-    transform: translate(75%, -355%);
+    transform: translate(85%, -355%);
 }
 .team-member-container .team-container .mem6-lg {
-    transform: translate(50%, -115%);
+    transform: translate(60%, -135%);
 }
 .team-member-container .team-container .awards-lg {
-    transform: translate(150%, -390%);
+    transform: translate(170%, -390%);
 }
 .team-member-container .team-container .cbtn-lg {
-    transform: translate(0%, -290%);
+    transform: translate(140%, -290%);
 }
 .team-member-container .team-container .mem15-lg {
-    transform: translate(355%, -385%);
+    transform: translate(405%, -335%);
 }
 .team-member-container .team-container .mem16-lg {
-    transform: translate(30%, -295%);
+    transform: translate(50%, -295%);
 }
 .team-member-container .team-container .mem13-lg {
-    transform: translate(85%, -225%);
+    transform: translate(85%, -205%);
 }
 
 .team-member-container .team-container .big5 {
@@ -596,7 +609,7 @@ html, body{
     transform: translate(0%, -50%);
 }
 .team-member-container .team-container .top6{
-    transform: translate(-450%, -120%);
+    transform: translate(-470%, -120%);
 }
 .team-member-container .team-container .left9{
     transform: translate(45%, -100%)
@@ -621,7 +634,7 @@ html, body{
     transform: translate(-65%, -710%);
 }
 .team-member-container .team-container .top-left3 {
-    transform: translate(380%, -505%);
+    transform: translate(340%, -505%);
 }
 .team-member-container .team-container .top-left4 {
     transform: translate(245%, -360%);
@@ -641,12 +654,21 @@ html, body{
 .team-member-container .team-container .cbtn-lg1 {
     transform: translate(125%, -290%);
 }
+.team-member-container .team-container .cc-lg1{
+    transform: translate(-200%, -910%);
+}
+.team-member-container .team-container .mem17-lg{
+    transform: translate(100%, -410%);
+}
+.team-member-container .team-container .mem18-lg1{
+    transform: translate(200%, -420%);
+}
 
 .team-member-container .team-container .big7 {
     transform: translate(-10%, -190%);
 }
 .team-member-container .team-container .bottom8 {
-    transform: translate(-450%, -145%);
+    transform: translate(-470%, -125%);
 }
 .team-member-container .team-container .left12 {
     transform: translate(180%, -750%);
@@ -655,10 +677,10 @@ html, body{
     transform: translate(40%, -270%);
 }
 .team-member-container .team-container .top-left6 {
-    transform: translate(445%, -425%);
+    transform: translate(485%, -425%);
 }
 .team-member-container .team-container .top-left7 {
-    transform: translate(300%, -360%);
+    transform: translate(320%, -360%);
 }
 .team-member-container .team-container .top9 {
     transform: translate(115%, -290%);
@@ -668,6 +690,15 @@ html, body{
 }
 .team-member-container .team-container .top-right4 {
     transform: translate(-30%, -700%);
+}
+.team-member-container .team-container .cc-lg2{
+    transform: translate(-560%, -560%);
+}
+.team-member-container .team-container .mem17-lg2{
+    transform: translate(-105%, -275%);
+}
+.team-member-container .team-container .mem18-lg2{
+    transform: translate(300%, -410%);
 }
 
 .team-member-container .team-container .big8 {
@@ -698,25 +729,25 @@ html, body{
     transform: translate(110%, -45%);
 }
 .team-member-container .team-container .bottom9 {
-    transform: translate(20%, -90%);
+    transform: translate(30%, -90%);
 }
 .team-member-container .team-container .top-left9 {
-    transform: translate(150%, -315%);
+    transform: translate(170%, -315%);
 }
 .team-member-container .team-container .mem5-lg1 {
-    transform: translate(-10%, -110%);
+    transform: translate(10%, -110%);
 }
 .team-member-container .team-container .mem9-lg {
-    transform: translate(-90%, -95%);
+    transform: translate(-100%, -95%);
 }
 .team-member-container .team-container .mem7-lg1 {
-    transform: translate(90%, -190%);
+    transform: translate(110%, -190%);
 }
 .team-member-container .team-container .mem26-lg2 {
-    transform: translate(50%, -150%);
+    transform: translate(70%, -150%);
 }
 .team-member-container .team-container .mem11-lg1 {
-    transform: translate(-430%, -150%);
+    transform: translate(-450%, -150%);
 }
 .team-member-container .team-container .mem12-lg2 {
     transform: translate(0%, -230%);
@@ -728,19 +759,19 @@ html, body{
     transform: translate(50%, -245%);
 }
 .team-member-container .team-container .pride-lg1 {
-    transform: translate(10%, -210%);
+    transform: translate(30%, -210%);
 }
 .team-member-container .team-container .dbtn-lg {
     transform: translate(150%, -330%);
 }
 .team-member-container .team-container .cbtn-lg2 {
-    transform: translate(115%, -375%);
+    transform: translate(135%, -375%);
 }
 .team-member-container .team-container .awards-lg2 {
     transform: translate(10%, -200%);
 }
 .team-member-container .team-container .mbtn-lg2 {
-    transform: translate(185%, -730%);
+    transform: translate(215%, -730%);
 }
 .team-member-container .team-container .abtn-lg2 {
     transform: translate(130%, -690%);
@@ -772,16 +803,16 @@ html, body{
 }
 
 .team-member-container .team-container .big10{
-    transform: translate(25%, -290%);
+    transform: translate(35%, -290%);
 }
 .team-member-container .team-container .bottom12 {
-    transform: translate(425%, -350%);
+    transform: translate(25%, -200%);
 }
 .team-member-container .team-container .bottom14 {
     transform: translate(100%, -195%);
 }
 .team-member-container .team-container .bottom13 {
-    transform: translate(345%, -415%);
+    transform: translate(435%, -355%);
 }
 .team-member-container .team-container .top16 {
     transform: translate(150%, -280%);
@@ -793,14 +824,14 @@ html, body{
     transform: translate(-10%, -175%);
 }
 .team-member-container .team-container .mem13-lg2 {
-    transform: translate(5%, -150%);
+    transform: translate(75%, -150%);
 }
 
 .team-member-container .team-container .big11{    
     transform: translate(315%, -275%);
 }
 .team-member-container .team-container .top17 {
-    transform: translate(170%, -380%);
+    transform: translate(180%, -360%);
 }
 .team-member-container .team-container .bottom16 {
     transform: translate(300%, -310%);
@@ -810,6 +841,15 @@ html, body{
 }
 .team-member-container .team-container .top18 {
     transform: translate(-120%, -580%);
+}
+.team-member-container .team-container .cc-lg5{
+    transform: translate(-600%, -550%);
+}
+.team-member-container .team-container .mem17-lg6{
+    transform: translate(-120%, -180%);
+}
+.team-member-container .team-container .mem18-lg5{
+    transform: translate(330%, -400%);
 }
 
 
@@ -822,6 +862,15 @@ html, body{
 .team-member-container .team-container .abtn-lg1 {
     transform: translate(10%, -640%);
 }
+.team-member-container .team-container .cc-lg4{
+    transform: translate(-530%, -660%);
+}
+.team-member-container .team-container .mem17-lg5{
+    transform: translate(-120%, -200%);
+}
+.team-member-container .team-container .mem18-lg4{
+    transform: translate(450%, -420%);
+}
 
 .team-member-container .team-container .big13 {
     transform: translate(15%, -165%);
@@ -833,7 +882,7 @@ html, body{
     transform: translate(30%, -270%);
 }
 .team-member-container .team-container .right4 {
-    transform: translate(330%, -425%);
+    transform: translate(350%, -425%);
 }
 .team-member-container .team-container .right5 {
     transform: translate(360%, -370%);
@@ -843,6 +892,15 @@ html, body{
 }
 .team-member-container .team-container .top-left12 {
     transform: translate(-140%, -640%);
+}
+.team-member-container .team-container .cc-lg3{
+    transform: translate(-560%, -650%);
+}
+.team-member-container .team-container .mem17-lg3{
+    transform: translate(50%, -300%);
+}
+.team-member-container .team-container .mem18-lg3{
+    transform: translate(420%, -460%);
 }
 
 .team-member-container .team-container .big14 {
@@ -861,7 +919,7 @@ html, body{
     transform: translate(140%, -110%);
 }
 .team-member-container .team-container .bottom22 {
-    transform: translate(-20%, -360%);
+    transform: translate(20%, -360%);
 }
 .team-member-container .team-container .right8 {
     transform: translate(110%, -290%);
@@ -876,7 +934,7 @@ html, body{
     transform: translate(10%, -655%);
 }
 .team-member-container .team-container .mem15-lg1 {
-    transform: translate(365%, -385%);
+    transform: translate(405%, -395%);
 }
 .team-member-container .team-container .mem16-lg1 {
     transform: translate(385%, -345%);
@@ -891,7 +949,83 @@ html, body{
     background-color: #8165a6;
     transform: translate(-80%, -675%);
 }
-.our-team{
+.team-member-container .team-container .cc-lg{
+    transform: translate(-480%, -545%);
+}
+.team-member-container .team-container .mem18-lg{
+    transform: translate(415%, -410%);
+}
+
+.team-member-container .team-container .big15{
+    transform: translate(-100%, -225%);
+}
+.team-member-container .team-container .top23{
+    transform: translate(-485%, -140%);
+}
+.team-member-container .team-container .top24{
+    transform: translate(180%, -745%);
+}
+.team-member-container .team-container .top25{   
+    transform: translate(50%, -140%);
+}
+.team-member-container .team-container .top26{
+    transform: translate(35%, -275%);
+}
+.team-member-container .team-container .top-left13{
+    transform: translate(395%, -250%);
+}
+.team-member-container .team-container .top27 {
+    transform: translate(0%, -250%);
+}
+.team-member-container .team-container .top28 {
+    transform: translate(85%, -205%);
+}
+.team-member-container .team-container .bottom24{
+    transform: translate(-465%, -630%);
+}
+.team-member-container .team-container .bottom25{
+    transform: translate(20%, -210%);
+}
+
+.team-member-container .team-container .big16{
+    transform: translate(-15%, -225%);
+}
+.team-member-container .team-container .top30{
+    transform: translate(180%, -745%);
+}
+.team-member-container .team-container .top29{   
+    transform: translate(50%, -140%);
+}
+.team-member-container .team-container .top31{
+    transform: translate(35%, -275%);
+}
+.team-member-container .team-container .top-left14{
+    transform: translate(355%, -260%);
+}
+.team-member-container .team-container .top32 {
+    transform: translate(75%, -175%);
+}
+.team-member-container .team-container .mem17-lg4{
+    transform: translate(-100%, -200%);
+}
+
+.team-member-container .team-container .big17{
+    transform: translate(10%, -30%);
+}
+.team-member-container .team-container .fbtn-lg{
+    transform: translate(5%, -20%);
+}
+.team-member-container .team-container .mem2-lg{
+    transform: translate(100%, -60%);
+}
+.team-member-container .team-container .mem1-lg{
+    transform: translate(5%,15%);
+}
+.team-member-container .team-container .advisor-btn-lg{
+    transform: translate(20%, 40%);
+}
+
+/* .our-team{
     overflow: hidden;
     border-radius: 50%;
     position: relative;
@@ -955,7 +1089,7 @@ html, body{
     border-radius: 4px;
     text-align: center;
     transition: all 0.3s ease-in-out 0s;
-}
+} */
 
 .team-member-container .team-container .content-btn{
     background-color: grey;
@@ -964,19 +1098,22 @@ html, body{
 
 @media screen and (max-width: 1450.6px){
     .mem4{
-        transform: translate(160%, -80%);
+        transform: translate(70%, -80%);
     }
     .mem2 {
-        transform: translate(125%, -75%);
+        transform: translate(65%, -75%);
+    }
+    .mem3{
+        transform: translate(10%, -30%);
     }
     .mem5 {
         transform: translate(0%, -100%);
     }
     .mem6 {
-        transform: translate(460%, -220%);
+        transform: translate(490%, -220%);
     }
     .mem9 {
-        transform: translate(-100%, -80%);
+        transform: translate(-120%, -80%);
     }
     .mem7 {
         transform: translate(-25%, -190%);
@@ -988,7 +1125,7 @@ html, body{
         transform: translate(-100%, -310%);
     }
     .mem10{
-        transform: translate(0, -40%);
+        transform: translate(-100%, -40%);
     }
     .mem12 {
         transform: translate(-215%, -210%);
@@ -997,13 +1134,22 @@ html, body{
         transform: translate(-190%, -220%);
     }
     .mem14 {
-        transform: translate(360%, -455%);
+        transform: translate(330%, -455%);
     }
     .mem15 {
         transform: translate(90%, -340%);
     }
     .mem16 {
         transform: translate(295%, -380%);
+    }
+    .mem17 {
+        transform: translate(30%, -360%);
+    }
+    .mem18 {
+        transform: translate(40%, -370%);
+    }
+    .team-member-container .team-container .UX-btn{
+        transform: translate(600%, -300%);
     }
     .team-member-container .team-container .associate-btn {
         transform: translate(-260%, -550%);
@@ -1012,7 +1158,7 @@ html, body{
         transform: translate(-175%, -655%);
     }
     .team-member-container .team-container .projects {
-        transform: translate(215%, -100%);
+        transform: translate(105%, -100%);
     }
     .team-member-container .team-container .developer-btn {
         transform: translate(160%, -310%);
@@ -1025,6 +1171,9 @@ html, body{
     }
     .team-member-container .team-container .awards{
         transform: translate(545%, -530%);
+    }
+    .team-member-container .team-container .created-content{
+        transform: translate(-220%, -830%);
     }
 
     /* ************************Function CSS******************************* */
@@ -1070,16 +1219,52 @@ html, body{
         transition: all 1s ease-in-out;
     }
     .team-member-container .team-container .big2 {
-        transform: translate(120%, -90%);
+        transform: translate(60%, -90%);
     }
     .team-member-container .team-container .top1{
         transform: translate(20%, -30%);
     }
     .team-member-container .team-container .top2{
-        transform: translate(35%, -45%);
+        transform: translate(5%, -30%);
     }
     .team-member-container .team-container .top-right {
-        transform: translate(30%, -15%);
+        transform: translate(570%, -320%);
+    }
+    .team-member-container .team-container .mem4-lg {
+        transform: translate(520%, -200%);
+    }
+    .team-member-container .team-container .dbtn-lg1 {
+        transform: translate(10%, -330%);
+    }
+    .team-member-container .team-container .mem9-lg1 {
+        transform: translate(-220%, -90%);
+    }
+    .team-member-container .team-container .mem7-lg2 {
+        transform: translate(-105%, -200%);
+    }
+    .team-member-container .team-container .mem5-lg3 {
+        transform: translate(-80%, -100%);
+    }
+    .team-member-container .team-container .mem6-lg1 {
+        transform: translate(440%, -220%);
+    }
+    .team-member-container .team-container .mbtn-lg3 {
+        transform: translate(-100%, -755%);
+    }
+    .team-member-container .team-container .pride-lg2 {
+        transform: translate(500%, -570%);
+    }
+    .team-member-container .team-container .mem14-lg1 {
+        transform: translate(330%, -470%);
+    }
+    .team-member-container .team-container .mem16-lg4 {
+        transform: translate(330%, -350%);
+    }
+    .team-member-container .team-container .mem12-lg3 {
+        transform: translate(-215%, -240%);
+    }
+    .team-member-container .team-container .mem18-lg6 {
+        transform: translate(140%, -390%);
     }
     
     .team-member-container .team-container .big3{
@@ -1092,7 +1277,7 @@ html, body{
         transform: translate(-185%, -755%);
     }
     .team-member-container .team-container .left2 {
-        transform: translate(-115%, -320%);
+        transform: translate(-125%, -320%);
     }
     .team-member-container .team-container .left5{
         transform: translate(-240%, -250%);
@@ -1101,7 +1286,7 @@ html, body{
         transform: translate(-320%, -610%);
     }
     .team-member-container .team-container .bottom5 {
-        transform: translate(-190%, -190%);
+        transform: translate(-190%, -200%);
     }
     .team-member-container .team-container .top3 {
         transform: translate(0%, -105%);
@@ -1110,13 +1295,16 @@ html, body{
         transform: translate(465%, -220%);
     }
     .team-member-container .team-container .right1 {
-        transform: translate(400%, -470%);
+        transform: translate(350%, -470%);
     }
     .team-member-container .team-container .mem15-lg2 {
         transform: translate(90%, -340%);
     }
     .team-member-container .team-container .mem16-lg12 {
         transform: translate(295%, -380%);
+    }
+    .team-member-container .team-container .mem17-lg1 {
+        transform: translate(30%, -360%);
     }
 
     .team-member-container .team-container .biggest{
@@ -1134,7 +1322,7 @@ html, body{
         transform: translate(20%, -235%);
     }
     .team-member-container .team-container .top4 {
-        transform: translate(125%, -80%);
+        transform: translate(65%, -80%);
     }
     .team-member-container .team-container .left3 {
         transform: translate(-35%, -190%);
@@ -1143,56 +1331,56 @@ html, body{
         transform: translate(-110%, -80%);
     }
     .team-member-container .team-container .right3 {
-        transform: translate(475%, -235%);
+        transform: translate(495%, -235%);
     }
     .team-member-container .team-container .bottom4{
         transform: translate(-170%, -200%);
     }
     
     .team-member-container .team-container .big4{
-        transform: translate(-20%, -50%);
+        transform: translate(-80%, -55%);
     }
     .team-member-container .team-container .top-left1{    
         transform: translate(40%, 30%);
     }
     .team-member-container .team-container .left6{
-        transform: translate(90%, -65%);
+        transform: translate(20%, -70%);
     }
     .team-member-container .team-container .left7{
-        transform: translate(155%, -100%);
+        transform: translate(35%, -180%);
     }
     .team-member-container .team-container .top-left2{
-        transform: translate(100%, -70%);
+        transform: translate(530%, -170%);
     }
     .team-member-container .team-container .bottom6 {
-        transform: translate(-100%, -60%);
+        transform: translate(-200%, -65%);
     }
     .team-member-container .team-container .bottom7 {
         transform: translate(-100%, -285%);
     }
     .team-member-container .team-container .left8 {
-        transform: translate(200%, -335%);
+        transform: translate(20%, -335%);
     }
     .team-member-container .team-container .mem5-lg {
-        transform: translate(0%, -100%);
+        transform: translate(-70%, -105%);
     }
     .team-member-container .team-container .mem7-lg {
-        transform: translate(-25%, -190%);
+        transform: translate(-95%, -190%);
     }
     .team-member-container .team-container .mem26-lg {
-        transform: translate(-55%, -140%);
+        transform: translate(-80%, -140%);
     }
     .team-member-container .team-container .mem14-lg {
-        transform: translate(360%, -455%);
+        transform: translate(320%, -475%);
     }
     .team-member-container .team-container .mem6-lg {
-        transform: translate(460%, -220%);
+        transform: translate(420%, -220%);
     }
     .team-member-container .team-container .mbtn-lg {
-        transform: translate(-175%, -655%);
+        transform: translate(-130%, -700%);
     }
     .team-member-container .team-container .pride-lg {
-        transform: translate(0%, -235%);
+        transform: translate(500%, -585%);
     }
     .team-member-container .team-container .cbtn-lg {
         transform: translate(-90%, -295%);
@@ -1204,7 +1392,7 @@ html, body{
         transform: translate(90%, -340%);
     }
     .team-member-container .team-container .mem16-lg {
-        transform: translate(295%, -380%);
+        transform: translate(340%, -330%);
     }
     .team-member-container .team-container .mem13-lg {
         transform: translate(-190%, -220%);
@@ -1214,7 +1402,7 @@ html, body{
         transform: translate(-100%, -105%);
     }
     .team-member-container .team-container .top5{
-        transform: translate(0%, -50%);
+        transform: translate(-100%, -50%);
     }
     .team-member-container .team-container .top6{
         transform: translate(-100%, -285%);
@@ -1236,7 +1424,7 @@ html, body{
         transform: translate(0%, -50%);
     }
     .team-member-container .team-container .bottom-left {
-        transform: translate(-240%, -155%);
+        transform: translate(-240%, -160%);
     }
     .team-member-container .team-container .left11 {
         transform: translate(-225%, -655%);
@@ -1254,26 +1442,35 @@ html, body{
         transform: translate(-50%, -370%);
     }
     .team-member-container .team-container .top-right1 {
-        transform: translate(200%, -360%);
+        transform: translate(220%, -360%);
     }
     .team-member-container .team-container .mem26-lg1 {
-        transform: translate(-55%, -140%);
+        transform: translate(-40%, -140%);
     }
     .team-member-container .team-container .cbtn-lg1 {
-        transform: translate(-90%, -295%);
+        transform: translate(-70%, -295%);
+    }
+    .team-member-container .team-container .cc-lg1 {
+        transform: translate(-270%, -940%);
+    }
+    .team-member-container .team-container .mem17-lg {
+        transform: translate(-30%, -405%);
+    }
+    .team-member-container .team-container .mem18-lg1 {
+        transform: translate(120%, -450%);
     }
     
     .team-member-container .team-container .big7 {
         transform: translate(-200%, -190%);
     }
     .team-member-container .team-container .bottom8 {
-        transform: translate(-100%, -235%);
+        transform: translate(-115%, -235%);
     }
     .team-member-container .team-container .left12 {
         transform: translate(-175%, -710%);
     }
     .team-member-container .team-container .left13 {
-        transform: translate(265%, -490%);
+        transform: translate(245%, -490%);
     }
     .team-member-container .team-container .top-left6 {
         transform: translate(160%, -415%);
@@ -1290,9 +1487,18 @@ html, body{
     .team-member-container .team-container .top-right4 {
         transform: translate(370%, -880%);
     }
+    .team-member-container .team-container .cc-lg2 {
+        transform: translate(-100%, -790%);
+    }
+    .team-member-container .team-container .mem17-lg2 {
+        transform: translate(120%, -375%);
+    }
+    .team-member-container .team-container .mem18-lg2 {
+        transform: translate(70%, -450%);
+    }
     
     .team-member-container .team-container .big8 {
-        transform: translate(55%, -85%);
+        transform: translate(335%, -185%);
     }
     .team-member-container .team-container .left14 {
         background-color: #8165a6;
@@ -1306,38 +1512,38 @@ html, body{
         transform: translate(-25%, -20%);
     }
     .team-member-container .team-container .left17 {
-        transform: translate(-10%, -30%);
+        transform: translate(560%, -290%);
         background-color: #8165a6;
     }
     .team-member-container .team-container .top-left8{
         transform: translate(-5%, -20%);
     }
     .team-member-container .team-container .left18 {
-        transform: translate(95%, -75%);
+        transform: translate(45%, -75%);
     }
     .team-member-container .team-container .bottom-left1 {
-        transform: translate(110%, -45%);
+        transform: translate(60%, -75%);
     }
     .team-member-container .team-container .bottom9 {
         transform: translate(460%, -205%);
     }
     .team-member-container .team-container .top-left9 {
-        transform: translate(370%, -455%);
+        transform: translate(350%, -455%);
     }
     .team-member-container .team-container .mem5-lg1 {
-        transform: translate(0%, -100%);
+        transform: translate(-130%, -100%);
     }
     .team-member-container .team-container .mem9-lg {
-        transform: translate(-100%, -80%);
+        transform: translate(-270%, -80%);
     }
     .team-member-container .team-container .mem7-lg1 {
-        transform: translate(-25%, -190%);
+        transform: translate(-115%, -190%);
     }
     .team-member-container .team-container .mem26-lg2 {
-        transform: translate(-55%, -140%);
+        transform: translate(-105%, -140%);
     }
     .team-member-container .team-container .mem11-lg1 {
-        transform: translate(-100%, -310%);
+        transform: translate(-120%, -285%);
     }
     .team-member-container .team-container .mem12-lg2 {
         transform: translate(-215%, -210%);
@@ -1346,16 +1552,16 @@ html, body{
         transform: translate(90%, -340%);
     }
     .team-member-container .team-container .mem16-lg3 {
-        transform: translate(295%, -380%);
+        transform: translate(320%, -360%);
     }
     .team-member-container .team-container .pride-lg1 {
-        transform: translate(0%, -235%);
+        transform: translate(480%, -520%);
     }
     .team-member-container .team-container .dbtn-lg {
-        transform: translate(160%, -310%);
+        transform: translate(-80%, -310%);
     }
     .team-member-container .team-container .cbtn-lg2 {
-        transform: translate(-90%, -295%);
+        transform: translate(-170%, -320%);
     }
     .team-member-container .team-container .awards-lg2 {
         transform: translate(545%, -530%);
@@ -1371,7 +1577,7 @@ html, body{
         transform: translate(330%, -235%);
     }
     .team-member-container .team-container .top10 {
-        transform: translate(215%, -120%);
+        transform: translate(105%, -120%);
     }
     .team-member-container .team-container .left21 {
         transform: translate(-10%, -235%);
@@ -1380,13 +1586,13 @@ html, body{
         transform: translate(-10%, -100%);
     }
     .team-member-container .team-container .top12 {
-        transform: translate(-85%, -190%);
+        transform: translate(-85%, -180%);
     }
     .team-member-container .team-container .left19 {
         transform: translate(-110%, -80%);
     }
     .team-member-container .team-container .left20 {
-        transform: translate(355%, -465%);
+        transform: translate(315%, -465%);
     }
     .team-member-container .team-container .top13 {
         transform: translate(-90%, -280%);
@@ -1417,7 +1623,7 @@ html, body{
         transform: translate(300%, -270%);
     }
     .team-member-container .team-container .bottom14 {
-        transform: translate(-100%, -200%);
+        transform: translate(-80%, -200%);
     }
     .team-member-container .team-container .bottom13 {
         transform: translate(75%, -225%);
@@ -1439,7 +1645,7 @@ html, body{
         transform: translate(215%, -310%);
     }
     .team-member-container .team-container .bottom15 {
-        transform: translate(360%, -345%);
+        transform: translate(320%, -345%);
     }
     .team-member-container .team-container .top17 {
         transform: translate(530%, -565%);
@@ -1462,31 +1668,43 @@ html, body{
     .team-member-container .team-container .left24 {
         transform: translate(-185%, -655%);
     }
+    .team-member-container .team-container .mem18-lg5 {
+        transform: translate(40%, -400%);
+    }
+    .team-member-container .team-container .mem17-lg6 {
+        transform: translate(120%, -380%);
+    }
     
     
     .team-member-container .team-container .big12 {
         transform: translate(50%, -275%);
     }
     .team-member-container .team-container .bottom18 {
-        transform: translate(360%, -345%);
+        transform: translate(310%, -345%);
     }
     .team-member-container .team-container .bottom19 {
         transform: translate(345%, -270%);
     }
     .team-member-container .team-container .left25 {
-        transform: translate(-110%, -295%);
+        transform: translate(-100%, -295%);
     }
     .team-member-container .team-container .left26 {
         transform: translate(505%, -530%);
     }
     .team-member-container .team-container .left27 {
-        transform: translate(-70%, -145%);
+        transform: translate(-60%, -145%);
     }
     .team-member-container .team-container .left28 {
         transform: translate(-210%, -220%);
     }
     .team-member-container .team-container .abtn-lg1 {
-        transform: translate(-260%, -550%);
+        transform: translate(-260%, -530%);
+    }
+    .team-member-container .team-container .mem17-lg5 {
+        transform: translate(60%, -400%);
+    }
+    .team-member-container .team-container .mem18-lg4 {
+        transform: translate(50%, -370%);
     }
     
     .team-member-container .team-container .big13 {
@@ -1496,7 +1714,7 @@ html, body{
         transform: translate(-55%, -150%);
     }
     .team-member-container .team-container .bottom20 {
-        transform: translate(230%, -350%);
+        transform: translate(200%, -330%);
     }
     .team-member-container .team-container .top20 {
         transform: translate(-80%, -340%);
@@ -1516,6 +1734,15 @@ html, body{
     .team-member-container .team-container .top-left12 {
         transform: translate(100%, -840%);
     }
+    .team-member-container .team-container .cc-lg3 {
+        transform: translate(-300%, -870%);
+    }
+    .team-member-container .team-container .mem17-lg3 {
+        transform: translate(50%, -370%);
+    }
+    .team-member-container .team-container .mem18-lg3 {
+        transform: translate(20%, -420%);
+    }
     
     .team-member-container .team-container .big14 {
         transform: translate(-35%, -195%);
@@ -1527,13 +1754,13 @@ html, body{
         transform: translate(10%, -105%);
     }
     .team-member-container .team-container .right7 {
-        transform: translate(25%, -235%);
+        transform: translate(15%, -235%);
     }
     .team-member-container .team-container .bottom21 {
         transform: translate(480%, -215%);
     }
     .team-member-container .team-container .bottom22 {
-        transform: translate(440%, -485%);
+        transform: translate(380%, -480%);
     }
     .team-member-container .team-container .right8 {
         transform: translate(-80%, -360%);
@@ -1561,6 +1788,78 @@ html, body{
     }
     .team-member-container .team-container .abtn-lg {
         transform: translate(-260%, -550%);
+    }
+    .team-member-container .team-container .cc-lg {
+        transform: translate(-220%, -930%);
+    }
+    .team-member-container .team-container .mem18-lg {
+        transform: translate(40%, -370%);
+    }
+
+    .team-member-container .team-container .big15{
+        transform: translate(10%, -295%);
+    }
+    .team-member-container .team-container .top23{
+        transform: translate(-110%, -315%);
+    }
+    .team-member-container .team-container .top24{
+        transform: translate(-175%, -660%);
+    }
+    .team-member-container .team-container .top25{   
+        transform: translate(-55%, -145%);
+    }
+    .team-member-container .team-container .top26{
+        transform: translate(305%, -380%);
+    }
+    .team-member-container .team-container .top-left13{
+        transform: translate(90%, -340%);
+    }
+    .team-member-container .team-container .top27 {
+        transform: translate(-215%, -220%);
+    }
+    .team-member-container .team-container .top28 {
+        transform: translate(-190%, -225%);
+    }
+    .team-member-container .team-container .bottom24{
+        transform: translate(-220%, -830%);
+    }
+    .team-member-container .team-container .bottom25{
+        transform: translate(40%, -290%);
+    }
+    
+    .team-member-container .team-container .big16{
+        transform: translate(40%, -310%);
+    }
+    .team-member-container .team-container .top30{
+        transform: translate(-180%, -655%);
+    }
+    .team-member-container .team-container .top29{   
+        transform: translate(-55%, -145%);
+    }
+    .team-member-container .team-container .top31{
+        transform: translate(305%, -380%);
+    }
+    .team-member-container .team-container .top-left14{
+        transform: translate(90%, -345%);
+    }
+    .team-member-container .team-container .top32 {
+        transform: translate(-195%, -225%);
+    }
+    .team-member-container .team-container .mem17-lg4{
+        transform: translate(30%, -280%);
+    }
+
+    .team-member-container .team-container .big17{
+        transform: translate(-20%, -30%);
+    }
+    .team-member-container .team-container .fbtn-lg {
+        transform: translate(-25%, -20%);
+    }
+    .team-member-container .team-container .mem2-lg {
+        transform: translate(30%, -60%);
+    }
+    .team-member-container .team-container .mem5-lg2 {
+        transform: translate(0%, -95%);
     }
 }
 
