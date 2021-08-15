@@ -17,7 +17,7 @@ html, body{
 } */
 
 .team-member-container .heading{
-    padding: 40px 0;
+    padding: 0px 0;
 }
 .team-member-container .heading h1{
     font-size: 52px;
@@ -91,7 +91,7 @@ html, body{
     font-size: 52px;
 } */
 .team-member-container .team-container .founder-btn{
-    background-color: #1ea2e0;
+    background-color: black;
     transform: translate(15%, -20%);
 }
 .team-member-container .team-container .founder-btn h1{
@@ -120,7 +120,7 @@ html, body{
 } */
 
 .team-member-container .team-container .projects{
-    background-color: #1ea2e0;
+    background-color: rgb(50, 77, 199);
     transform: translate(240%, -135%);
 }
 
@@ -133,7 +133,7 @@ html, body{
     margin-bottom: -5px;
 }
 .team-member-container .team-container .developer-btn{
-    background-color: #1ea2e0;
+    background-color: #8165a6;
     transform: translate(-425%, -30%);
 }
 .team-member-container .team-container .fwa h1{
@@ -1027,8 +1027,8 @@ html, body{
 
 /* .our-team{
     overflow: hidden;
-    border-radius: 50%;
-    position: relative;
+    /* border-radius: 50%; */
+  /*  position: relative;
 }
 .our-team img{
     width: 100%;
@@ -1052,8 +1052,10 @@ html, body{
 }
 .our-team:hover .team-content{
     right: 0;
-}
-.our-team .title{
+} */
+
+
+/* .our-team .title{
     font-size: 12px;
     color: #8e0c80;
     margin: 0 0 10px 0;
@@ -1066,7 +1068,6 @@ html, body{
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-
 .our-team .social{
     padding: 0;
     margin: 0;
@@ -1091,8 +1092,13 @@ html, body{
     transition: all 0.3s ease-in-out 0s;
 } */
 
+
+
+
+
+
 .team-member-container .team-container .content-btn{
-    background-color: grey;
+    background-color: rgb(65, 65, 65);
 }
 
 

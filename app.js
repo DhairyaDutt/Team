@@ -2645,12 +2645,12 @@ $(document).ready(function(){
     });
 
     $(".manager-btn").click(()=>{
-        $(".mem:not(.mem12,.mem13)").toggleClass("opaque");
+        $(".mem:not(.mem12)").toggleClass("opaque");
         $(".bttn:not(.manager-btn)").toggleClass("opaque");
     });
 
     $(".content-btn").click(()=>{
-        $(".mem:not(.mem12)").toggleClass("opaque");
+        $(".mem:not(.mem12,.mem13)").toggleClass("opaque");
         $(".bttn:not(.content-btn)").toggleClass("opaque");
     });
 
