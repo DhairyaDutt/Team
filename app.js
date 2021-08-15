@@ -146,6 +146,9 @@ $(document).ready(function(){
             $(".mem13").removeClass("mem13-lg1");
             $(".associate-btn").removeClass("abtn-lg");
 
+            $(".mem .team").addClass("our-team");
+            $(".mem .team").removeClass("team");
+
             $(this).toggleClass("big big1");
             $(".advisor-btn").toggleClass("left");
             $(".bigmem").not(this).removeClass("big big1 big2 bi3 biggest");
@@ -1672,6 +1675,8 @@ $(document).ready(function(){
             $(".mem5").toggleClass("left22");
             $(".mem12").toggleClass("mem12-lg1");
             $(".mem13").toggleClass("mem13-lg2");
+            $(".created-content").toggleClass("cc-lg6");
+            $(".mem18").toggleClass("mem18-lg7");
         }
         else if($(this).hasClass("mem16")){
             // Removing classes
@@ -2616,6 +2621,9 @@ $(document).ready(function(){
             $(".mem1").toggleClass("mem1-lg");
             $(".advisor-btn").toggleClass("advisor-btn-lg");
             $(".mem5").toggleClass("mem5-lg");
+            $(".UX-btn").toggleClass("UX-btn-lg");
+            $(".developer-btn").toggleClass("dbtn-lg2");
+            $(".mem9").toggleClass("mem9-lg2");
         }
     });
 
