@@ -146,8 +146,7 @@ $(document).ready(function(){
             $(".mem13").removeClass("mem13-lg1");
             $(".associate-btn").removeClass("abtn-lg");
 
-            $(".mem .team").addClass("our-team");
-            $(".mem .team").removeClass("team");
+            
 
             $(this).toggleClass("big big1");
             $(".advisor-btn").toggleClass("left");
@@ -2666,7 +2665,146 @@ $(document).ready(function(){
         $(".mem:not(.mem17)").toggleClass("opaque");
         $(".bttn:not(.UX-btn)").toggleClass("opaque");
     });
+    
 
+    // $(".mem").bind(()=>{
+        
+    //     $(".big .our-team").toggleClass("team");
+    // // $(".big .our-team").removeClass("team");
+    //     $(this).unbind("click");
+            
+    // });
+
+    $(".mem1").bind('click',()=>{
+        $(".mem1").toggleClass("team");  
+    });
+    $(".mem1").unbind('click',()=>{
+        $(".mem1").removeClass("team");
+    });
+
+    $(".mem2").bind('click',()=>{
+        $(".mem2").toggleClass("team");  
+    });
+    $(".mem2").unbind('click',()=>{
+        $(".mem2").removeClass("team");
+    });
+
+    $(".mem3").bind('click',()=>{
+        $(".mem3").toggleClass("team");  
+    });
+    $(".mem3").unbind('click',()=>{
+        $(".mem3").removeClass("team");
+    });
+
+    $(".mem4").bind('click',()=>{
+        $(".mem4").toggleClass("team");  
+    });
+    $(".mem4").unbind('click',()=>{
+        $(".mem4").removeClass("team");
+    });
+
+    $(".mem5").bind('click',()=>{
+        $(".mem5").toggleClass("team");  
+    });
+    $(".mem5").unbind('click',()=>{
+        $(".mem5").removeClass("team");
+    });
+
+    $(".mem6").bind('click',()=>{
+        $(".mem6").toggleClass("team");  
+    });
+    $(".mem6").unbind('click',()=>{
+        $(".mem6").removeClass("team");
+    });
+
+    $(".mem7").bind('click',()=>{
+        $(".mem7").toggleClass("team");  
+    });
+    $(".mem7").unbind('click',()=>{
+        $(".mem7").removeClass("team");
+    });
+
+    $(".mem8").bind('click',()=>{
+        $(".mem8").toggleClass("team");  
+    });
+    $(".mem8").unbind('click',()=>{
+        $(".mem8").removeClass("team");
+    });
+
+    $(".mem9").bind('click',()=>{
+        $(".mem9").toggleClass("team");  
+    });
+    $(".mem9").unbind('click',()=>{
+        $(".mem9").removeClass("team");
+    });
+
+    $(".mem10").bind('click',()=>{
+        $(".mem10").toggleClass("team");  
+    });
+    $(".mem10").unbind('click',()=>{
+        $(".mem10").removeClass("team");
+    });
+
+    $(".mem11").bind('click',()=>{
+        $(".mem11").toggleClass("team");  
+    });
+    $(".mem11").unbind('click',()=>{
+        $(".mem11").removeClass("team");
+    });
+
+    $(".mem12").bind('click',()=>{
+        $(".mem12").toggleClass("team");  
+    });
+    $(".mem12").unbind('click',()=>{
+        $(".mem12").removeClass("team");
+    });
+
+    $(".mem13").bind('click',()=>{
+        $(".mem13").toggleClass("team");  
+    });
+    $(".mem13").unbind('click',()=>{
+        $(".mem13").removeClass("team");
+    });
+
+    $(".mem14").bind('click',()=>{
+        $(".mem14").toggleClass("team");  
+    });
+    $(".mem14").unbind('click',()=>{
+        $(".mem14").removeClass("team");
+    });
+
+    $(".mem15").bind('click',()=>{
+        $(".mem15").toggleClass("team");  
+    });
+    $(".mem5").unbind('click',()=>{
+        $(".mem15").removeClass("team");
+    });
+
+    $(".mem16").bind('click',()=>{
+        $(".mem16").toggleClass("team");  
+    });
+    $(".mem16").unbind('click',()=>{
+        $(".mem16").removeClass("team");
+    });
+
+    $(".mem17").bind('click',()=>{
+        $(".mem17").toggleClass("team");  
+    });
+    $(".mem17").unbind('click',()=>{
+        $(".mem17").removeClass("team");
+    });
+
+    $(".mem18").bind('click',()=>{
+        $(".mem18").toggleClass("team");  
+    });
+    $(".mem18").unbind('click',()=>{
+        $(".mem18").removeClass("team");
+    });
+
+
+
+    
+    
     
     
 });
