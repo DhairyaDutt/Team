@@ -919,6 +919,7 @@ $(document).ready(function(){
             $(".mem11").toggleClass("top6");
             $(".mem5").toggleClass("left9");
             $(".pride").toggleClass("left10");
+            $(".mem7").toggleClass("mem7-lg3");
         }
         else if($(this).hasClass("mem11")){
             // Removing classes
@@ -1375,6 +1376,9 @@ $(document).ready(function(){
             $(".awards").toggleClass("awards-lg2");
             $(".manager-btn").toggleClass("mbtn-lg2");
             $(".associate-btn").toggleClass("abtn-lg2");
+            $(".mem13").toggleClass("mem13-lg3");
+            $(".created-content").toggleClass("cc-lg7");
+            $(".mem18").toggleClass("mem18-lg8");
         }
         else if($(this).hasClass("mem6")){
             // Removing classes
