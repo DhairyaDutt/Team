@@ -5,6 +5,7 @@ html, body{
 body{
     background-image: url("/images/background.jpeg");
     background-repeat: no-repeat;
+    background-size: 100vw 100%;
 }
 
 /* body{
@@ -25,7 +26,9 @@ body{
     padding: 0px 0;
 }
 .team-member-container .heading h1{
-    font-size: 52px;
+    font-size: 58px;
+    margin-top: 30px;
+    color: #FFF;
 }
 .team-member-container .team-container{
     flex-wrap: wrap;
@@ -1037,6 +1040,7 @@ body{
     overflow: hidden;
     border-radius: 50%;
    position: relative;
+   width: fit-content;
 }
 .our-team img{
     width: 100%;
@@ -1054,7 +1058,7 @@ body{
     width: 80%;
     height: 100%;
     background: #f1f1f1;
-    padding: 20% 30px 0;
+    padding: 35px 20px;
     position: absolute;
     top: 0;
     right: -80%;

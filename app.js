@@ -2728,11 +2728,11 @@ $(document).ready(function(){
         $(".mem7").removeClass("team");
     });
 
-    $(".mem8").bind('click',()=>{
-        $(".mem8").toggleClass("team");  
+    $(".mem26").bind('click',()=>{
+        $(".mem26").toggleClass("team");  
     });
-    $(".mem8").unbind('click',()=>{
-        $(".mem8").removeClass("team");
+    $(".mem26").unbind('click',()=>{
+        $(".mem26").removeClass("team");
     });
 
     $(".mem9").bind('click',()=>{
@@ -2780,7 +2780,7 @@ $(document).ready(function(){
     $(".mem15").bind('click',()=>{
         $(".mem15").toggleClass("team");  
     });
-    $(".mem5").unbind('click',()=>{
+    $(".mem15").unbind('click',()=>{
         $(".mem15").removeClass("team");
     });
 
